@@ -1,0 +1,428 @@
+{
+  "run_id": "20260422_182954",
+  "query": "Which party won the Greater Accra region in 2020?",
+  "response": "[RAG Response | Style: STRUCTURED]\n\n\u2022 GH\u20b5564.6 million for textbooks and learning materials [Source: budget_pdf]\n\u2022 TVET programs for skills development [Source: budget_pdf]\n\u2022 \u26a0\ufe0f Total education sector allocation not in provided context",
+  "timestamp": "2026-04-22T18:30:50.797366",
+  "stages": [
+    {
+      "timestamp": "2026-04-22T18:30:49.854587",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "What was allocated for education in the 2025 budget?",
+        "length": 52,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.157514",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.733,
+        "sources": [
+          "budget_pdf"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.163954",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 6,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 2999,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.174360",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "basic",
+        "word_count": 273,
+        "char_count": 1970,
+        "has_constraints": false,
+        "prompt_preview": "Context:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.180298",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 173,
+        "response_words": 20,
+        "response_preview": "The government allocated significant resources for education including textbooks and various programs. The budget supports learning materials and educ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.192475",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 204,
+        "final_words": 25,
+        "citations_included": false,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.229338",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "What was allocated for education in the 2025 budget?",
+        "length": 52,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.343539",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.733,
+        "sources": [
+          "budget_pdf"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.346861",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 6,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 2999,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.348985",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "strict",
+        "word_count": 287,
+        "char_count": 2052,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer ONLY from context. Say \"I don't know\" if unsure.\n\nContext:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP b..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.353899",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 171,
+        "response_words": 25,
+        "response_preview": "Based on the provided documents, GH\u20b5564.6 million was allocated for textbooks [Source: budget_pdf]. I don't have the total education budget figure in ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.360004",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 203,
+        "final_words": 30,
+        "citations_included": true,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.378978",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "What was allocated for education in the 2025 budget?",
+        "length": 52,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.453640",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.733,
+        "sources": [
+          "budget_pdf"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.454955",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 6,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 2999,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.457263",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "structured",
+        "word_count": 286,
+        "char_count": 2056,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer in bullet points with [Source: X] citations.\n\nContext:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benef..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.459951",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 199,
+        "response_words": 28,
+        "response_preview": "\u2022 GH\u20b5564.6 million for textbooks and learning materials [Source: budget_pdf]\n\u2022 TVET programs for skills development [Source: budget_pdf]\n\u2022 \u26a0\ufe0f Total ed..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.463636",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 235,
+        "final_words": 33,
+        "citations_included": true,
+        "uncertainty_marked": true
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.473224",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "Which party won the Greater Accra region in 2020?",
+        "length": 49,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.562474",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.656,
+        "sources": [
+          "election_csv"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.567172",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 10,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 468,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.570641",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "basic",
+        "word_count": 297,
+        "char_count": 2121,
+        "has_constraints": false,
+        "prompt_preview": "Context:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. v..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.575231",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 173,
+        "response_words": 20,
+        "response_preview": "The government allocated significant resources for education including textbooks and various programs. The budget supports learning materials and educ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.576839",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 204,
+        "final_words": 25,
+        "citations_included": false,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.591578",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "Which party won the Greater Accra region in 2020?",
+        "length": 49,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.670862",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.656,
+        "sources": [
+          "election_csv"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.671646",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 10,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 468,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.676191",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "strict",
+        "word_count": 311,
+        "char_count": 2203,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer ONLY from context. Say \"I don't know\" if unsure.\n\nContext:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.680498",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 171,
+        "response_words": 25,
+        "response_preview": "Based on the provided documents, GH\u20b5564.6 million was allocated for textbooks [Source: budget_pdf]. I don't have the total education budget figure in ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.685681",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 203,
+        "final_words": 30,
+        "citations_included": true,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.699150",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "Which party won the Greater Accra region in 2020?",
+        "length": 49,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.778616",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.656,
+        "sources": [
+          "election_csv"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.780230",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 10,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 468,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.784470",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "structured",
+        "word_count": 310,
+        "char_count": 2207,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer in bullet points with [Source: X] citations.\n\nContext:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Ot..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.789077",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 199,
+        "response_words": 28,
+        "response_preview": "\u2022 GH\u20b5564.6 million for textbooks and learning materials [Source: budget_pdf]\n\u2022 TVET programs for skills development [Source: budget_pdf]\n\u2022 \u26a0\ufe0f Total ed..."
+      }
+    },
+    {
+      "timestamp": "2026-04-22T18:30:50.792444",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 235,
+        "final_words": 33,
+        "citations_included": true,
+        "uncertainty_marked": true
+      }
+    }
+  ]
+}

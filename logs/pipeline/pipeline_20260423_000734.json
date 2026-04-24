@@ -1,0 +1,1616 @@
+{
+  "run_id": "20260423_000734",
+  "query": "Which party won the Greater Accra region in 2020?",
+  "response": "[RAG Response | Style: STRUCTURED]\n\n\u2022 GH\u20b5564.6 million for textbooks and learning materials [Source: budget_pdf]\n\u2022 TVET programs for skills development [Source: budget_pdf]\n\u2022 \u26a0\ufe0f Total education sector allocation not in provided context",
+  "timestamp": "2026-04-23T00:08:32.308031",
+  "stages": [
+    {
+      "timestamp": "2026-04-23T00:08:31.848639",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "What was allocated for education in the 2025 budget?",
+        "length": 52,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.006644",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.733,
+        "sources": [
+          "budget_pdf"
+        ],
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "source": "budget_pdf",
+            "text": "ng the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision of curricula -based textbooks covering the following: i. four (4) sets of KG books and workbooks for about 2.8 million learners; ii. four (4) sets of primary textbook s for 800,000 learners; and iii. nine (9) sets of JHS 3 textbooks for 540,000 learners. 381. Mr. Speaker, under the School Feeding Programme, budgetary provision has been increased from GH 1.344 billion to GH 1.788 billion in 2025, representing an 33 increase. The allocation for 2025 reflects an increase in the feeding cost per meal per child per day from GH 1.50 to GH 2.00, representing 33.3 . 382. Mr. Speaker, the Capitation Grant has been allocated GH 145.5 million, up from GH 84 million in 2024, an increase of 73.2 over the previous year s allocation. 383. Mr. Speaker, we have also allocated GH 203 million for the payment of the Teacher Trainee allowances and another GH 480 million for Nursing Trainee allowances. 384. Mr. Speaker, we have uncapped the National Health Insurance Levy (NHIL). An amount of GH 9.93 billion has been programmed for the National Health Insurance Scheme (NHIS) for; i. claim payments; ii. essential medicines; iii. vaccines payments; iv. bridging of the USA ID financing shortfall; v. the Free Primary Healthcare; and vi. the Ghana Medical Care Trust (MahamaCares); among others. 385. In 2025, Government will continue to implement reforms and increase budgetary allocations to enhance the implementation of the four targeted social protection programmes, namely NHIS, the LEAP Programme, the School Feeding Programme, and the Capitation Gra nt. 386. Mr. Speaker, under the LEAP programme, benefits will be indexed to inflation and the number of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025",
+            "vector_score": 0.8873,
+            "keyword_score": 0.3729,
+            "combined_score": 0.733,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 187200,
+              "char_end": 189200,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 2,
+            "source": "budget_pdf",
+            "text": "r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025. 387. Mr. Speaker, we have also uncapped the Road Fund. An amount of GH 2.81 billion has been programmed for the Ghana Road Fund to be used solely for road maintenance. This represents an increase of 155.5 over the 2024 allocation of GH 1.1 billion. 388. Mr. Speaker, we have allocated an amount of GH 7.51 billion to the District Assembly Common Fund (DACF). In accordance with our decentralization policy objective, we propose to Parliament that a minimum of 80 of the funds should be sent directly to Resetting the Economy for the Ghana We Want 2025 Budget 73 the District Assemblies to spur economic growth at the district level and deepen decentralization. 389. Mr. Speaker, it is worth noting that this is in stark contrast to what has happened to the District Assembly Common Fund (DACF) in recent years where less than 5 0 percent of the released amount to DACF goes to the District Assemblies, with a significant portion spent at the center. 390. Mr. Speaker, we have allocated an amount of GH 1.5 billion for Agriculture for Economic Transformation Agenda (AETA) of which Feed Ghana Programme, Ghana Grains Development Project, Vegetable Development Project and Nkok o Nkitinkiti are all key components. 391. Mr. Speaker, we have also allocated GH 51.3 million as seed fund for the establishment of the Women s Development Bank. 392. Mr. Speaker, we have also allocated GH 300 million to the National Apprenticeship Programme. 393. Mr. Speaker, we have also allocated GH 100 million to the Adwumawura Programme. 394. Mr. Speaker, for the National Coders Programme, we have allocated GH 100 million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECT",
+            "vector_score": 1.1429,
+            "keyword_score": 0.7099,
+            "combined_score": 1.013,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 189000,
+              "char_end": 191000,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 3,
+            "source": "budget_pdf",
+            "text": "tation, and maximize the economic benefits of remittances and boost foreign exchange earnings. 2025 Allocations to Key Policy Initiatives and Interventions 372. Mr. Speaker, we will provision a cedi equivalent of US 279 million as a revolving fund for the Ghana Gold Board (GOLDBOD) to be able to purchase and export at least 3 tonnes of gold per week from small scale miners. 373. Mr. Speaker, we have allocated GH 13.85 billion for the Big Push Programme. 374. Mr. Speaker, an amount of GH 499.8 million has been allocated for the No -Academic - Fee policy for all first -year students in public tertiary institutions under the No -Fees- Stress initiative. 375. Mr. Speaker, we have allocated GH 292.4 million to commence the distribution of free sanitary pads to female students in primary and secondary schools. 376. Mr. Speaker, the main concern about the sustainability of the Free Senior High School Programme has been the absence of a dedicated source of funding. This concern has now been resolved by the uncapping of the Ghana Education Trust Fund (GETFund) , freeing resources for the full funding of the Free Senior High School education and Free Tertiary Education for Persons with Disability (PWDs) . 377. Consequently, the Capping and Realignment Act will be amended to uncap Ghana Education Trust Fund (GETFund) and amend the GETFund Act to provide for full funding of the Free Senior High School education . 378. Mr. Speaker, we have uncapped the Ghana Education Trust Fund (GETFund) to provide adequate and dedicated funding for the Free Senior High School Programme and the, in addition to its core mandate. 379. Mr. Speaker, aside the uncapping of GETFund, we have also absorbed the debt service, made up of interest and principal, from the Daakye bond GETFund contracted. Resetting the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision of curricula -based textbooks covering the follow",
+            "vector_score": 1.1401,
+            "keyword_score": 0.5969,
+            "combined_score": 0.9772,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 185400,
+              "char_end": 187400,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 4,
+            "source": "budget_pdf",
+            "text": "million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK Introduction 396. Mr. Speaker, the Theme Resetting the Economy for the Ghana We Want the implementation of prudent and sustainable programmes and interventions that drives inclusive growth and robust job creation across the country. 397. The Medium -Term National Development Policy Framework (MTNDPF 2022 -2025) is being implemented through the plans of sector Ministries, Departments and Agencies, as well as District Assemblies. This section, therefore, highlights the performance of the sect ors in 2024 with regard to the implementation of the MTNDPF 2022 -2025 and provide the outlook for the MDAs in line with the Executive Instrument (E.I. 1, 2025) and the State of the Nation (SONA) as presented by H.E. The President on the 27th of February, 2 025. 398. The 2025 Budget introduces transformative sectoral programmes and projects designed to stimulate economic growth and development. These strategic initiatives includes: i. implementing the Adwumawura programme ii. the Teacher Dabr \u025b Initiative iii. the Poultry Farm to Table and Nkoko Nkitinkiti Projects ; iv. MahamaCare s; v. E-okada ; and vi. One Million Coders Project . Administration Sectors 399. The main focus of the Administration Sector is to ensure effective democratic governance, public financial management, local governance administration, public accountability, public policy management, as well as good international relations, development co mmunications, and civil society engagement. 400. The programmes in this sector aim to achieve the SDGs 1,3,4,6,8,10,12,16, and 17, and Africa Union (AU) Agenda 2063 Goals 2,11,12,13,15,19 and 20. Office of Government Machinery 2024 Performance and Outlook for 2025 401. Mr. Speaker, the Office of Government Machinery (OGM) exists to pro",
+            "vector_score": 1.0679,
+            "keyword_score": 0.2605,
+            "combined_score": 0.8257,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 190800,
+              "char_end": 192800,
+              "chunk_length": 1999,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 5,
+            "source": "budget_pdf",
+            "text": ".. ................................ 49 2025 Fiscal Framework ................................ ................................ ................................ 50 2025 Macroeconomic Targets ................................ ................................ ...................... 51 2025 Expenditure Measures ................................ ................................ ......................... 51 2025 Revenue Measures ................................ ................................ .............................. 53 2025 Resource Allocation ................................ ................................ ............................. 58 2025 Budget Balances and Financing Operations ................................ ........................ 59 2025 Petroleum Receipts and Utilisation Projection ................................ ...................... 60 2025 Debt Policy Objectives and Liability Management ................................ ................ 61 2025 Key Initiatives and Outlook for the Ghana Stock Exchange ................................ . 63 Medium -Term Vision and Policy Objectives ................................ ................................ .. 64 SECTION 5: KEY POLICY INITIATIVES AND RESOURCE ALLOCATION .................... 69 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK ................................ ......... 74 Introduction ................................ ................................ ................................ ................... 74 Administration Sectors ................................ ................................ ................................ .. 74 Economic Sectors ................................ ................................ ................................ ......... 89 Infrastructure Sectors ................................ ................................ ................................ ... 99 Social Sectors ................................ ................................ ................................ .......",
+            "vector_score": 1.1654,
+            "keyword_score": 0.2554,
+            "combined_score": 0.8924,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 3600,
+              "char_end": 5600,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.285242"
+            }
+          },
+          {
+            "rank": 6,
+            "source": "budget_pdf",
+            "text": "evelopment 1,170,052 346,320,000 347,490,052 Grand TotalCompensation of EmployeesGoods ServicesCAPEX IGFForeign Loans GrantsSn Covered Entity Resetting the Economy for the Ghana We Want 2025 Budget 164 Appendix 4C: MDA Expenditure Allocation (GH ) 2027 Social Sector Summary Social 53,020,378,842 6,782,829,415 1,427,126,711 12,101,144,826 - 73,331,479,793 24 Ministry of Education 36,212,027,707 1,831,993,634 346,320,000 4,109,853,042 - 42,500,194,383 o w MoE Hqtrs and Agencies 36,212,027,707 32,858,723 57,720,000 4,109,853,042 40,412,459,472 o w Existing Interventions in Education 225,017,265 - 225,017,265 o w Construction of Regional STEM Centres - 288,600,000 288,600,000 o w Capitation Grant 180,725,531 - 180,725,531 o w WAEC Exam Fee 42,574,012 - 42,574,012 o w Teacher Trainee Allowances - - - o w Initiatives and Priorities in Education 1,350,818,103 - 1,350,818,103 25 Ministry of Labour, Jobs, and Employment 103,150,379 29,766,072 - 354,196,513 487,112,963 26 Ministry of Sports and Recreation 49,336,683 41,838,552 - 5,330,919 96,506,154 27 National Commission for Civic Education 158,598,177 6,140,118 - 164,738,295 28 Ministry of Youth Development and Empowerment 50,703,948 825,187,154 173,160,000 21,584,683 - 1,070,635,783 o w MoYDE Hqtrs and Agencies 50,703,948 2,026,080 - 52,730,028 o w Scholarship Secretariat 295,454,126 - 295,454,126 o w National Entreprenuership Programme (NEIP) - 527,706,948 173,160,000 - - 722,451,630 o w Adwumawura 135,072,000 57,720,000 192,792,000 o w National Apprenticeship Programme 375,750,947 115,440,000 491,190,947 29 Ministry of Health 16,282,424,513 266,146,785 895,447,589 7,608,622,918 - 25,052,641,806 o w MoH Hqtrs and Agencies 16,282,424,513 88,930,606 87,367,589 7,608,622,918 24,067,345,627 o w Mental Health 5,311,205 - 5,311,205 o w Health Infrastructure - 577,200,000 577,200,000 o w e-Health Project 2,110,500 - 2,110,500 o w Ghana Psychological Council 954,474 - 954,474 o w La General Hospital - 173,160,000 173,160,000 o w",
+            "vector_score": 1.0738,
+            "keyword_score": 0.1484,
+            "combined_score": 0.7962,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 448200,
+              "char_end": 450200,
+              "chunk_length": 1999,
+              "created_at": "2026-04-21T13:33:59.289059"
+            }
+          },
+          {
+            "rank": 7,
+            "source": "budget_pdf",
+            "text": "ccredited Training Providers under the Ghana TVET Voucher Project. In addition, a total of 10,089 learners completed their apprenticeship training under the Ghana Jobs and Skills Apprenticeship Programme. 641. Mr. Speaker, the Ministry will commence the construction of six regional TVET Centres of Excellence. These Centres will equip our youth with practical, relevant skills to thrive in the evolving job market. 642. Mr. Speaker, Government continued with the implementation of the Free Senior High School Programme which continues to create and expand access to secondary education. Enrolment of first year students for the 2024 2025 academic year stands at 482,100. This brings the provisional enrolment for the 2024 2025 academic year to 1,449,833. 643. Mr. Speaker, Government will waive academic fees for all first -year students in all public tertiary institutions to promote access to higher education. Government in addition, will implement free tertiary education for Persons with Disabilities. This polic y will encourage more students to pursue tertiary education and reduce financial burden on families and reflects our unwavering commitment to inclusivity and equal opportunities for all Ghanaians. 644. Mr. Speaker, Government, in collaboration with tertiary institutions and the Ghana National Chamber of Commerce and Industry (GNCCI), will launch the GNCCI Youth Chamber in tertiary institutions. The Programme, which aims at fostering a dynamic entrepreneu rial ecosystem among Ghana s youth will bridge the gap between academia and industry and provide an opportunity to empower the next generation of graduate techpreneurs with professional guidance and mentorship. Resetting the Economy for the Ghana We Want 2025 Budget 107 645. The Programme will be rolled out in five public tertiary institutions in 2025 and scaled up subsequently to nurture young minds to become job creators rather than job seekers by equipping them with the necessary tools to navigate the business wor",
+            "vector_score": 1.1656,
+            "keyword_score": 0.2344,
+            "combined_score": 0.8863,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 291600,
+              "char_end": 293600,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.287531"
+            }
+          },
+          {
+            "rank": 8,
+            "source": "budget_pdf",
+            "text": "4 1,260,095,850 - 1,918,773,313 o w MoT Hqtrs and Agencies 39,214,849 4,634,190 163,255,164 1,260,095,850 1,467,200,053 o w Railways Development 1,357,261 450,216,000 451,573,261 IGFForeign Loans GrantsGrand TotalCompensation of EmployeesGoods Services CAPEX Sn Covered Entity Resetting the Economy for the Ghana We Want 2025 Budget 170 Appendix 4D: MDA Expenditure Allocation (GH ) 2028 Social Sector Summary Social 59,913,028,092 7,521,990,444 1,855,264,725 13,136,812,175 - 82,427,095,434 24 Ministry of Education 40,919,591,309 2,110,654,574 450,216,000 4,313,352,267 - 47,793,814,150 o w MoE Hqtrs and Agencies 40,919,591,309 38,116,118 75,036,000 4,313,352,267 45,346,095,695 o w Existing Interventions in Education 261,020,028 - 261,020,028 o w Construction of Regional STEM Centres - 375,180,000 375,180,000 o w Capitation Grant 195,183,574 - 195,183,574 o w WAEC Exam Fee 49,385,854 - 49,385,854 o w Teacher Trainee Allowances - - - o w Initiatives and Priorities in Education 1,566,948,999 - 1,566,948,999 25 Ministry of Labour, Jobs, and Employment 116,559,928 34,528,643 - 422,482,901 573,571,473 26 Ministry of Sports and Recreation 55,750,451 48,532,720 - 6,130,557 110,413,728 27 National Commission for Civic Education 179,215,940 7,122,537 - 186,338,477 28 Ministry of Youth Development and Empowerment 57,295,461 927,157,023 225,108,000 23,686,621 - 1,233,247,104 o w MoYDE Hqtrs and Agencies 57,295,461 2,350,253 - 23,686,621 83,332,335 o w Scholarship Secretariat 342,726,786 - 342,726,786 o w National Entreprenuership Programme (NEIP) - 582,079,984 225,108,000 - - 807,187,983 o w Adwumawura 156,683,520 75,036,000 231,719,520 o w National Apprenticeship Programme 405,811,022 150,072,000 555,883,022 29 Ministry of Health 18,399,139,700 308,730,271 1,164,081,866 8,369,132,538 - 28,241,084,375 o w MoH Hqtrs and Agencies 18,399,139,700 103,159,503 113,577,866 8,369,132,538 26,985,009,607 o w Mental Health 6,160,998 - 6,160,998 o w Health Infrastructure - 750,360,000 750,360,",
+            "vector_score": 1.0987,
+            "keyword_score": 0.1518,
+            "combined_score": 0.8146,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 460800,
+              "char_end": 462800,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.289059"
+            }
+          },
+          {
+            "rank": 9,
+            "source": "budget_pdf",
+            "text": "Budget 223 Appendix 8D: 2027 Internally Generated Funds Retention (Expenditure) Breakdown by MDAS SOCIAL SECTOR 2,102,174,686 7,714,756,692 2,536,734,804 12,353,666,183 Ministry of Education 761,846,603 2,074,350,778 1,273,655,660 4,109,853,042 GES and Others: 1,185,816 223,268,795 24,191,440 248,646,051 Centre for National Distance Learning and Open Schooling - 2,940,000 - 2,940,000 Commission for Technical and Vocational Education and Training - 69,520,322 7,724,480 77,244,803 Encyclopedia Afrikana - 58,095 - 58,095 Ghana Academy of Arts and Science - 1,480,707 - 1,480,707 Ghana Book Devt. Council - 1,372,162 - 1,372,162 Ghana Education Service 427,021 40,567,013 1,708,083 42,702,118 Ghana Library Authority - 950,720 - 950,720 Ghana Science Association - 828,410 - 828,410 National Schools Inspectorate Authority - 16,937,984 2,522,016 19,460,000 West African Examination Council (National) - 7,607,047 1,901,762 9,508,808 National Teaching Council 758,794 81,006,334 10,335,099 92,100,228 Ghana TVET Service - 29,270,871 4,373,808 33,644,679 Ghana TVET Service - Headquarters - 4,770,720 712,866 5,483,586 Ghana TVET Service -Training Institutes - 24,500,151 3,660,942 28,161,093 Universities: 630,249,886 1,194,353,238 1,028,154,479 2,852,757,602 Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development(AMMUSTED) 13,686,491 41,059,474 43,014,687 97,760,652 C. K. Tedam University of Tech. and Applied Sciences 2,348,001 11,740,007 9,046,711 23,134,720 Ghana CommunicationTechnology University 5,777,083 37,180,226 42,038,641 84,995,950 Kwame Nkrumah University of Science and Technology 379,000,225 147,388,977 176,866,772 703,255,974 S. D. Dombo University of Bus. and Int. Devt. Studies 14,003,528 23,339,214 9,335,686 46,678,428 University for Development Studies 26,476,714 55,895,285 64,656,135 147,028,134 University of Cape Coast 16,807,060 196,082,370 184,317,428 397,206,858 University of Education, Winneba 55,509,454 164,848,155 80,291,116 300,648,",
+            "vector_score": 1.0991,
+            "keyword_score": 0.1432,
+            "combined_score": 0.8123,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 649800,
+              "char_end": 651800,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.291603"
+            }
+          },
+          {
+            "rank": 10,
+            "source": "budget_pdf",
+            "text": "wing key corruption prevention interventions: Youth against Corruption (YAC) Initiative; Engagement with Religious Bodies; and Engagement with Professional Bodies. 756. In 2025, the Office will continue and complete investigations already started. Furthermore, the Office will execute high -impact anti -corruption initiatives and recoveries from corruption -related offenses such as investigations and asset recovery operations ; aggressive nationwide anti -corruption education campaigns; and support for intelligence gathering and inter -agency collaborations. Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana s capacity to repay. 763. Mr. Speaker , H.E John Mahama s administration will be fiscally disciplined and deliver improved public services to our people in a cost -effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffect",
+            "vector_score": 1.1699,
+            "keyword_score": 0.1294,
+            "combined_score": 0.8577,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 342000,
+              "char_end": 344000,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.288071"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.007645",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 6,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 2999,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.008643",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "basic",
+        "word_count": 273,
+        "char_count": 1970,
+        "has_constraints": false,
+        "prompt_preview": "Context:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH...",
+        "final_prompt_sent_to_llm": "Context:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025. 387. Mr. Speaker, we have also uncapped the Road Fund. An amount of GH 2.81 billion has been progr\n\n[budget_pdf] tation, and maximize the economic benefits of remittances and boost foreign exchange earnings. 2025 Allocations to Key Policy Initiatives and Interventions 372. Mr. Speaker, we will provision a cedi equivalent of US 279 million as a revolving fund for the Ghana Gold Board (GOLDBOD) to be able to pur\n\n[budget_pdf] .. ................................ 49 2025 Fiscal Framework ................................ ................................ ................................ 50 2025 Macroeconomic Targets ................................ ................................ ...................... 51 2025 Expenditure M\n\n[budget_pdf] ccredited Training Providers under the Ghana TVET Voucher Project. In addition, a total of 10,089 learners completed their apprenticeship training under the Ghana Jobs and Skills Apprenticeship Programme. 641. Mr. Speaker, the Ministry will commence the construction of six regional TVET Centres of E\n\n[budget_pdf] wing key corruption prevention interventions: Youth against Corruption (YAC) Initiative; Engagement with Religious Bodies; and Engagement with Professional Bodies. 756. In 2025, the Office will continue and complete investigations already started. Furthermore, the Office will execute high -impact an\n\n[budget_pdf] million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK Introduction 396. Mr. Speaker, the Theme Resetting the Econom\n\nQuestion: What was allocated for education in the 2025 budget?\n\nAnswer:"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.010645",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 173,
+        "response_words": 20,
+        "response_preview": "The government allocated significant resources for education including textbooks and various programs. The budget supports learning materials and educ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.012162",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 204,
+        "final_words": 25,
+        "citations_included": false,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.019162",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "What was allocated for education in the 2025 budget?",
+        "length": 52,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.069389",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.733,
+        "sources": [
+          "budget_pdf"
+        ],
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "source": "budget_pdf",
+            "text": "ng the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision of curricula -based textbooks covering the following: i. four (4) sets of KG books and workbooks for about 2.8 million learners; ii. four (4) sets of primary textbook s for 800,000 learners; and iii. nine (9) sets of JHS 3 textbooks for 540,000 learners. 381. Mr. Speaker, under the School Feeding Programme, budgetary provision has been increased from GH 1.344 billion to GH 1.788 billion in 2025, representing an 33 increase. The allocation for 2025 reflects an increase in the feeding cost per meal per child per day from GH 1.50 to GH 2.00, representing 33.3 . 382. Mr. Speaker, the Capitation Grant has been allocated GH 145.5 million, up from GH 84 million in 2024, an increase of 73.2 over the previous year s allocation. 383. Mr. Speaker, we have also allocated GH 203 million for the payment of the Teacher Trainee allowances and another GH 480 million for Nursing Trainee allowances. 384. Mr. Speaker, we have uncapped the National Health Insurance Levy (NHIL). An amount of GH 9.93 billion has been programmed for the National Health Insurance Scheme (NHIS) for; i. claim payments; ii. essential medicines; iii. vaccines payments; iv. bridging of the USA ID financing shortfall; v. the Free Primary Healthcare; and vi. the Ghana Medical Care Trust (MahamaCares); among others. 385. In 2025, Government will continue to implement reforms and increase budgetary allocations to enhance the implementation of the four targeted social protection programmes, namely NHIS, the LEAP Programme, the School Feeding Programme, and the Capitation Gra nt. 386. Mr. Speaker, under the LEAP programme, benefits will be indexed to inflation and the number of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025",
+            "vector_score": 0.8873,
+            "keyword_score": 0.3729,
+            "combined_score": 0.733,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 187200,
+              "char_end": 189200,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 2,
+            "source": "budget_pdf",
+            "text": "r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025. 387. Mr. Speaker, we have also uncapped the Road Fund. An amount of GH 2.81 billion has been programmed for the Ghana Road Fund to be used solely for road maintenance. This represents an increase of 155.5 over the 2024 allocation of GH 1.1 billion. 388. Mr. Speaker, we have allocated an amount of GH 7.51 billion to the District Assembly Common Fund (DACF). In accordance with our decentralization policy objective, we propose to Parliament that a minimum of 80 of the funds should be sent directly to Resetting the Economy for the Ghana We Want 2025 Budget 73 the District Assemblies to spur economic growth at the district level and deepen decentralization. 389. Mr. Speaker, it is worth noting that this is in stark contrast to what has happened to the District Assembly Common Fund (DACF) in recent years where less than 5 0 percent of the released amount to DACF goes to the District Assemblies, with a significant portion spent at the center. 390. Mr. Speaker, we have allocated an amount of GH 1.5 billion for Agriculture for Economic Transformation Agenda (AETA) of which Feed Ghana Programme, Ghana Grains Development Project, Vegetable Development Project and Nkok o Nkitinkiti are all key components. 391. Mr. Speaker, we have also allocated GH 51.3 million as seed fund for the establishment of the Women s Development Bank. 392. Mr. Speaker, we have also allocated GH 300 million to the National Apprenticeship Programme. 393. Mr. Speaker, we have also allocated GH 100 million to the Adwumawura Programme. 394. Mr. Speaker, for the National Coders Programme, we have allocated GH 100 million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECT",
+            "vector_score": 1.1429,
+            "keyword_score": 0.7099,
+            "combined_score": 1.013,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 189000,
+              "char_end": 191000,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 3,
+            "source": "budget_pdf",
+            "text": "tation, and maximize the economic benefits of remittances and boost foreign exchange earnings. 2025 Allocations to Key Policy Initiatives and Interventions 372. Mr. Speaker, we will provision a cedi equivalent of US 279 million as a revolving fund for the Ghana Gold Board (GOLDBOD) to be able to purchase and export at least 3 tonnes of gold per week from small scale miners. 373. Mr. Speaker, we have allocated GH 13.85 billion for the Big Push Programme. 374. Mr. Speaker, an amount of GH 499.8 million has been allocated for the No -Academic - Fee policy for all first -year students in public tertiary institutions under the No -Fees- Stress initiative. 375. Mr. Speaker, we have allocated GH 292.4 million to commence the distribution of free sanitary pads to female students in primary and secondary schools. 376. Mr. Speaker, the main concern about the sustainability of the Free Senior High School Programme has been the absence of a dedicated source of funding. This concern has now been resolved by the uncapping of the Ghana Education Trust Fund (GETFund) , freeing resources for the full funding of the Free Senior High School education and Free Tertiary Education for Persons with Disability (PWDs) . 377. Consequently, the Capping and Realignment Act will be amended to uncap Ghana Education Trust Fund (GETFund) and amend the GETFund Act to provide for full funding of the Free Senior High School education . 378. Mr. Speaker, we have uncapped the Ghana Education Trust Fund (GETFund) to provide adequate and dedicated funding for the Free Senior High School Programme and the, in addition to its core mandate. 379. Mr. Speaker, aside the uncapping of GETFund, we have also absorbed the debt service, made up of interest and principal, from the Daakye bond GETFund contracted. Resetting the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision of curricula -based textbooks covering the follow",
+            "vector_score": 1.1401,
+            "keyword_score": 0.5969,
+            "combined_score": 0.9772,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 185400,
+              "char_end": 187400,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 4,
+            "source": "budget_pdf",
+            "text": "million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK Introduction 396. Mr. Speaker, the Theme Resetting the Economy for the Ghana We Want the implementation of prudent and sustainable programmes and interventions that drives inclusive growth and robust job creation across the country. 397. The Medium -Term National Development Policy Framework (MTNDPF 2022 -2025) is being implemented through the plans of sector Ministries, Departments and Agencies, as well as District Assemblies. This section, therefore, highlights the performance of the sect ors in 2024 with regard to the implementation of the MTNDPF 2022 -2025 and provide the outlook for the MDAs in line with the Executive Instrument (E.I. 1, 2025) and the State of the Nation (SONA) as presented by H.E. The President on the 27th of February, 2 025. 398. The 2025 Budget introduces transformative sectoral programmes and projects designed to stimulate economic growth and development. These strategic initiatives includes: i. implementing the Adwumawura programme ii. the Teacher Dabr \u025b Initiative iii. the Poultry Farm to Table and Nkoko Nkitinkiti Projects ; iv. MahamaCare s; v. E-okada ; and vi. One Million Coders Project . Administration Sectors 399. The main focus of the Administration Sector is to ensure effective democratic governance, public financial management, local governance administration, public accountability, public policy management, as well as good international relations, development co mmunications, and civil society engagement. 400. The programmes in this sector aim to achieve the SDGs 1,3,4,6,8,10,12,16, and 17, and Africa Union (AU) Agenda 2063 Goals 2,11,12,13,15,19 and 20. Office of Government Machinery 2024 Performance and Outlook for 2025 401. Mr. Speaker, the Office of Government Machinery (OGM) exists to pro",
+            "vector_score": 1.0679,
+            "keyword_score": 0.2605,
+            "combined_score": 0.8257,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 190800,
+              "char_end": 192800,
+              "chunk_length": 1999,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 5,
+            "source": "budget_pdf",
+            "text": ".. ................................ 49 2025 Fiscal Framework ................................ ................................ ................................ 50 2025 Macroeconomic Targets ................................ ................................ ...................... 51 2025 Expenditure Measures ................................ ................................ ......................... 51 2025 Revenue Measures ................................ ................................ .............................. 53 2025 Resource Allocation ................................ ................................ ............................. 58 2025 Budget Balances and Financing Operations ................................ ........................ 59 2025 Petroleum Receipts and Utilisation Projection ................................ ...................... 60 2025 Debt Policy Objectives and Liability Management ................................ ................ 61 2025 Key Initiatives and Outlook for the Ghana Stock Exchange ................................ . 63 Medium -Term Vision and Policy Objectives ................................ ................................ .. 64 SECTION 5: KEY POLICY INITIATIVES AND RESOURCE ALLOCATION .................... 69 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK ................................ ......... 74 Introduction ................................ ................................ ................................ ................... 74 Administration Sectors ................................ ................................ ................................ .. 74 Economic Sectors ................................ ................................ ................................ ......... 89 Infrastructure Sectors ................................ ................................ ................................ ... 99 Social Sectors ................................ ................................ ................................ .......",
+            "vector_score": 1.1654,
+            "keyword_score": 0.2554,
+            "combined_score": 0.8924,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 3600,
+              "char_end": 5600,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.285242"
+            }
+          },
+          {
+            "rank": 6,
+            "source": "budget_pdf",
+            "text": "evelopment 1,170,052 346,320,000 347,490,052 Grand TotalCompensation of EmployeesGoods ServicesCAPEX IGFForeign Loans GrantsSn Covered Entity Resetting the Economy for the Ghana We Want 2025 Budget 164 Appendix 4C: MDA Expenditure Allocation (GH ) 2027 Social Sector Summary Social 53,020,378,842 6,782,829,415 1,427,126,711 12,101,144,826 - 73,331,479,793 24 Ministry of Education 36,212,027,707 1,831,993,634 346,320,000 4,109,853,042 - 42,500,194,383 o w MoE Hqtrs and Agencies 36,212,027,707 32,858,723 57,720,000 4,109,853,042 40,412,459,472 o w Existing Interventions in Education 225,017,265 - 225,017,265 o w Construction of Regional STEM Centres - 288,600,000 288,600,000 o w Capitation Grant 180,725,531 - 180,725,531 o w WAEC Exam Fee 42,574,012 - 42,574,012 o w Teacher Trainee Allowances - - - o w Initiatives and Priorities in Education 1,350,818,103 - 1,350,818,103 25 Ministry of Labour, Jobs, and Employment 103,150,379 29,766,072 - 354,196,513 487,112,963 26 Ministry of Sports and Recreation 49,336,683 41,838,552 - 5,330,919 96,506,154 27 National Commission for Civic Education 158,598,177 6,140,118 - 164,738,295 28 Ministry of Youth Development and Empowerment 50,703,948 825,187,154 173,160,000 21,584,683 - 1,070,635,783 o w MoYDE Hqtrs and Agencies 50,703,948 2,026,080 - 52,730,028 o w Scholarship Secretariat 295,454,126 - 295,454,126 o w National Entreprenuership Programme (NEIP) - 527,706,948 173,160,000 - - 722,451,630 o w Adwumawura 135,072,000 57,720,000 192,792,000 o w National Apprenticeship Programme 375,750,947 115,440,000 491,190,947 29 Ministry of Health 16,282,424,513 266,146,785 895,447,589 7,608,622,918 - 25,052,641,806 o w MoH Hqtrs and Agencies 16,282,424,513 88,930,606 87,367,589 7,608,622,918 24,067,345,627 o w Mental Health 5,311,205 - 5,311,205 o w Health Infrastructure - 577,200,000 577,200,000 o w e-Health Project 2,110,500 - 2,110,500 o w Ghana Psychological Council 954,474 - 954,474 o w La General Hospital - 173,160,000 173,160,000 o w",
+            "vector_score": 1.0738,
+            "keyword_score": 0.1484,
+            "combined_score": 0.7962,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 448200,
+              "char_end": 450200,
+              "chunk_length": 1999,
+              "created_at": "2026-04-21T13:33:59.289059"
+            }
+          },
+          {
+            "rank": 7,
+            "source": "budget_pdf",
+            "text": "ccredited Training Providers under the Ghana TVET Voucher Project. In addition, a total of 10,089 learners completed their apprenticeship training under the Ghana Jobs and Skills Apprenticeship Programme. 641. Mr. Speaker, the Ministry will commence the construction of six regional TVET Centres of Excellence. These Centres will equip our youth with practical, relevant skills to thrive in the evolving job market. 642. Mr. Speaker, Government continued with the implementation of the Free Senior High School Programme which continues to create and expand access to secondary education. Enrolment of first year students for the 2024 2025 academic year stands at 482,100. This brings the provisional enrolment for the 2024 2025 academic year to 1,449,833. 643. Mr. Speaker, Government will waive academic fees for all first -year students in all public tertiary institutions to promote access to higher education. Government in addition, will implement free tertiary education for Persons with Disabilities. This polic y will encourage more students to pursue tertiary education and reduce financial burden on families and reflects our unwavering commitment to inclusivity and equal opportunities for all Ghanaians. 644. Mr. Speaker, Government, in collaboration with tertiary institutions and the Ghana National Chamber of Commerce and Industry (GNCCI), will launch the GNCCI Youth Chamber in tertiary institutions. The Programme, which aims at fostering a dynamic entrepreneu rial ecosystem among Ghana s youth will bridge the gap between academia and industry and provide an opportunity to empower the next generation of graduate techpreneurs with professional guidance and mentorship. Resetting the Economy for the Ghana We Want 2025 Budget 107 645. The Programme will be rolled out in five public tertiary institutions in 2025 and scaled up subsequently to nurture young minds to become job creators rather than job seekers by equipping them with the necessary tools to navigate the business wor",
+            "vector_score": 1.1656,
+            "keyword_score": 0.2344,
+            "combined_score": 0.8863,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 291600,
+              "char_end": 293600,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.287531"
+            }
+          },
+          {
+            "rank": 8,
+            "source": "budget_pdf",
+            "text": "4 1,260,095,850 - 1,918,773,313 o w MoT Hqtrs and Agencies 39,214,849 4,634,190 163,255,164 1,260,095,850 1,467,200,053 o w Railways Development 1,357,261 450,216,000 451,573,261 IGFForeign Loans GrantsGrand TotalCompensation of EmployeesGoods Services CAPEX Sn Covered Entity Resetting the Economy for the Ghana We Want 2025 Budget 170 Appendix 4D: MDA Expenditure Allocation (GH ) 2028 Social Sector Summary Social 59,913,028,092 7,521,990,444 1,855,264,725 13,136,812,175 - 82,427,095,434 24 Ministry of Education 40,919,591,309 2,110,654,574 450,216,000 4,313,352,267 - 47,793,814,150 o w MoE Hqtrs and Agencies 40,919,591,309 38,116,118 75,036,000 4,313,352,267 45,346,095,695 o w Existing Interventions in Education 261,020,028 - 261,020,028 o w Construction of Regional STEM Centres - 375,180,000 375,180,000 o w Capitation Grant 195,183,574 - 195,183,574 o w WAEC Exam Fee 49,385,854 - 49,385,854 o w Teacher Trainee Allowances - - - o w Initiatives and Priorities in Education 1,566,948,999 - 1,566,948,999 25 Ministry of Labour, Jobs, and Employment 116,559,928 34,528,643 - 422,482,901 573,571,473 26 Ministry of Sports and Recreation 55,750,451 48,532,720 - 6,130,557 110,413,728 27 National Commission for Civic Education 179,215,940 7,122,537 - 186,338,477 28 Ministry of Youth Development and Empowerment 57,295,461 927,157,023 225,108,000 23,686,621 - 1,233,247,104 o w MoYDE Hqtrs and Agencies 57,295,461 2,350,253 - 23,686,621 83,332,335 o w Scholarship Secretariat 342,726,786 - 342,726,786 o w National Entreprenuership Programme (NEIP) - 582,079,984 225,108,000 - - 807,187,983 o w Adwumawura 156,683,520 75,036,000 231,719,520 o w National Apprenticeship Programme 405,811,022 150,072,000 555,883,022 29 Ministry of Health 18,399,139,700 308,730,271 1,164,081,866 8,369,132,538 - 28,241,084,375 o w MoH Hqtrs and Agencies 18,399,139,700 103,159,503 113,577,866 8,369,132,538 26,985,009,607 o w Mental Health 6,160,998 - 6,160,998 o w Health Infrastructure - 750,360,000 750,360,",
+            "vector_score": 1.0987,
+            "keyword_score": 0.1518,
+            "combined_score": 0.8146,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 460800,
+              "char_end": 462800,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.289059"
+            }
+          },
+          {
+            "rank": 9,
+            "source": "budget_pdf",
+            "text": "Budget 223 Appendix 8D: 2027 Internally Generated Funds Retention (Expenditure) Breakdown by MDAS SOCIAL SECTOR 2,102,174,686 7,714,756,692 2,536,734,804 12,353,666,183 Ministry of Education 761,846,603 2,074,350,778 1,273,655,660 4,109,853,042 GES and Others: 1,185,816 223,268,795 24,191,440 248,646,051 Centre for National Distance Learning and Open Schooling - 2,940,000 - 2,940,000 Commission for Technical and Vocational Education and Training - 69,520,322 7,724,480 77,244,803 Encyclopedia Afrikana - 58,095 - 58,095 Ghana Academy of Arts and Science - 1,480,707 - 1,480,707 Ghana Book Devt. Council - 1,372,162 - 1,372,162 Ghana Education Service 427,021 40,567,013 1,708,083 42,702,118 Ghana Library Authority - 950,720 - 950,720 Ghana Science Association - 828,410 - 828,410 National Schools Inspectorate Authority - 16,937,984 2,522,016 19,460,000 West African Examination Council (National) - 7,607,047 1,901,762 9,508,808 National Teaching Council 758,794 81,006,334 10,335,099 92,100,228 Ghana TVET Service - 29,270,871 4,373,808 33,644,679 Ghana TVET Service - Headquarters - 4,770,720 712,866 5,483,586 Ghana TVET Service -Training Institutes - 24,500,151 3,660,942 28,161,093 Universities: 630,249,886 1,194,353,238 1,028,154,479 2,852,757,602 Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development(AMMUSTED) 13,686,491 41,059,474 43,014,687 97,760,652 C. K. Tedam University of Tech. and Applied Sciences 2,348,001 11,740,007 9,046,711 23,134,720 Ghana CommunicationTechnology University 5,777,083 37,180,226 42,038,641 84,995,950 Kwame Nkrumah University of Science and Technology 379,000,225 147,388,977 176,866,772 703,255,974 S. D. Dombo University of Bus. and Int. Devt. Studies 14,003,528 23,339,214 9,335,686 46,678,428 University for Development Studies 26,476,714 55,895,285 64,656,135 147,028,134 University of Cape Coast 16,807,060 196,082,370 184,317,428 397,206,858 University of Education, Winneba 55,509,454 164,848,155 80,291,116 300,648,",
+            "vector_score": 1.0991,
+            "keyword_score": 0.1432,
+            "combined_score": 0.8123,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 649800,
+              "char_end": 651800,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.291603"
+            }
+          },
+          {
+            "rank": 10,
+            "source": "budget_pdf",
+            "text": "wing key corruption prevention interventions: Youth against Corruption (YAC) Initiative; Engagement with Religious Bodies; and Engagement with Professional Bodies. 756. In 2025, the Office will continue and complete investigations already started. Furthermore, the Office will execute high -impact anti -corruption initiatives and recoveries from corruption -related offenses such as investigations and asset recovery operations ; aggressive nationwide anti -corruption education campaigns; and support for intelligence gathering and inter -agency collaborations. Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana s capacity to repay. 763. Mr. Speaker , H.E John Mahama s administration will be fiscally disciplined and deliver improved public services to our people in a cost -effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffect",
+            "vector_score": 1.1699,
+            "keyword_score": 0.1294,
+            "combined_score": 0.8577,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 342000,
+              "char_end": 344000,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.288071"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.070390",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 6,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 2999,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.071388",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "strict",
+        "word_count": 287,
+        "char_count": 2052,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer ONLY from context. Say \"I don't know\" if unsure.\n\nContext:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP b...",
+        "final_prompt_sent_to_llm": "# SYSTEM: Answer ONLY from context. Say \"I don't know\" if unsure.\n\nContext:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025. 387. Mr. Speaker, we have also uncapped the Road Fund. An amount of GH 2.81 billion has been progr\n\n[budget_pdf] tation, and maximize the economic benefits of remittances and boost foreign exchange earnings. 2025 Allocations to Key Policy Initiatives and Interventions 372. Mr. Speaker, we will provision a cedi equivalent of US 279 million as a revolving fund for the Ghana Gold Board (GOLDBOD) to be able to pur\n\n[budget_pdf] .. ................................ 49 2025 Fiscal Framework ................................ ................................ ................................ 50 2025 Macroeconomic Targets ................................ ................................ ...................... 51 2025 Expenditure M\n\n[budget_pdf] ccredited Training Providers under the Ghana TVET Voucher Project. In addition, a total of 10,089 learners completed their apprenticeship training under the Ghana Jobs and Skills Apprenticeship Programme. 641. Mr. Speaker, the Ministry will commence the construction of six regional TVET Centres of E\n\n[budget_pdf] wing key corruption prevention interventions: Youth against Corruption (YAC) Initiative; Engagement with Religious Bodies; and Engagement with Professional Bodies. 756. In 2025, the Office will continue and complete investigations already started. Furthermore, the Office will execute high -impact an\n\n[budget_pdf] million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK Introduction 396. Mr. Speaker, the Theme Resetting the Econom\n\nQuestion: What was allocated for education in the 2025 budget?\n\nAnswer (cite sources):"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.074390",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 171,
+        "response_words": 25,
+        "response_preview": "Based on the provided documents, GH\u20b5564.6 million was allocated for textbooks [Source: budget_pdf]. I don't have the total education budget figure in ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.077391",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 203,
+        "final_words": 30,
+        "citations_included": true,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.087208",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "What was allocated for education in the 2025 budget?",
+        "length": 52,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.133773",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.733,
+        "sources": [
+          "budget_pdf"
+        ],
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "source": "budget_pdf",
+            "text": "ng the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision of curricula -based textbooks covering the following: i. four (4) sets of KG books and workbooks for about 2.8 million learners; ii. four (4) sets of primary textbook s for 800,000 learners; and iii. nine (9) sets of JHS 3 textbooks for 540,000 learners. 381. Mr. Speaker, under the School Feeding Programme, budgetary provision has been increased from GH 1.344 billion to GH 1.788 billion in 2025, representing an 33 increase. The allocation for 2025 reflects an increase in the feeding cost per meal per child per day from GH 1.50 to GH 2.00, representing 33.3 . 382. Mr. Speaker, the Capitation Grant has been allocated GH 145.5 million, up from GH 84 million in 2024, an increase of 73.2 over the previous year s allocation. 383. Mr. Speaker, we have also allocated GH 203 million for the payment of the Teacher Trainee allowances and another GH 480 million for Nursing Trainee allowances. 384. Mr. Speaker, we have uncapped the National Health Insurance Levy (NHIL). An amount of GH 9.93 billion has been programmed for the National Health Insurance Scheme (NHIS) for; i. claim payments; ii. essential medicines; iii. vaccines payments; iv. bridging of the USA ID financing shortfall; v. the Free Primary Healthcare; and vi. the Ghana Medical Care Trust (MahamaCares); among others. 385. In 2025, Government will continue to implement reforms and increase budgetary allocations to enhance the implementation of the four targeted social protection programmes, namely NHIS, the LEAP Programme, the School Feeding Programme, and the Capitation Gra nt. 386. Mr. Speaker, under the LEAP programme, benefits will be indexed to inflation and the number of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025",
+            "vector_score": 0.8873,
+            "keyword_score": 0.3729,
+            "combined_score": 0.733,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 187200,
+              "char_end": 189200,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 2,
+            "source": "budget_pdf",
+            "text": "r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025. 387. Mr. Speaker, we have also uncapped the Road Fund. An amount of GH 2.81 billion has been programmed for the Ghana Road Fund to be used solely for road maintenance. This represents an increase of 155.5 over the 2024 allocation of GH 1.1 billion. 388. Mr. Speaker, we have allocated an amount of GH 7.51 billion to the District Assembly Common Fund (DACF). In accordance with our decentralization policy objective, we propose to Parliament that a minimum of 80 of the funds should be sent directly to Resetting the Economy for the Ghana We Want 2025 Budget 73 the District Assemblies to spur economic growth at the district level and deepen decentralization. 389. Mr. Speaker, it is worth noting that this is in stark contrast to what has happened to the District Assembly Common Fund (DACF) in recent years where less than 5 0 percent of the released amount to DACF goes to the District Assemblies, with a significant portion spent at the center. 390. Mr. Speaker, we have allocated an amount of GH 1.5 billion for Agriculture for Economic Transformation Agenda (AETA) of which Feed Ghana Programme, Ghana Grains Development Project, Vegetable Development Project and Nkok o Nkitinkiti are all key components. 391. Mr. Speaker, we have also allocated GH 51.3 million as seed fund for the establishment of the Women s Development Bank. 392. Mr. Speaker, we have also allocated GH 300 million to the National Apprenticeship Programme. 393. Mr. Speaker, we have also allocated GH 100 million to the Adwumawura Programme. 394. Mr. Speaker, for the National Coders Programme, we have allocated GH 100 million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECT",
+            "vector_score": 1.1429,
+            "keyword_score": 0.7099,
+            "combined_score": 1.013,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 189000,
+              "char_end": 191000,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 3,
+            "source": "budget_pdf",
+            "text": "tation, and maximize the economic benefits of remittances and boost foreign exchange earnings. 2025 Allocations to Key Policy Initiatives and Interventions 372. Mr. Speaker, we will provision a cedi equivalent of US 279 million as a revolving fund for the Ghana Gold Board (GOLDBOD) to be able to purchase and export at least 3 tonnes of gold per week from small scale miners. 373. Mr. Speaker, we have allocated GH 13.85 billion for the Big Push Programme. 374. Mr. Speaker, an amount of GH 499.8 million has been allocated for the No -Academic - Fee policy for all first -year students in public tertiary institutions under the No -Fees- Stress initiative. 375. Mr. Speaker, we have allocated GH 292.4 million to commence the distribution of free sanitary pads to female students in primary and secondary schools. 376. Mr. Speaker, the main concern about the sustainability of the Free Senior High School Programme has been the absence of a dedicated source of funding. This concern has now been resolved by the uncapping of the Ghana Education Trust Fund (GETFund) , freeing resources for the full funding of the Free Senior High School education and Free Tertiary Education for Persons with Disability (PWDs) . 377. Consequently, the Capping and Realignment Act will be amended to uncap Ghana Education Trust Fund (GETFund) and amend the GETFund Act to provide for full funding of the Free Senior High School education . 378. Mr. Speaker, we have uncapped the Ghana Education Trust Fund (GETFund) to provide adequate and dedicated funding for the Free Senior High School Programme and the, in addition to its core mandate. 379. Mr. Speaker, aside the uncapping of GETFund, we have also absorbed the debt service, made up of interest and principal, from the Daakye bond GETFund contracted. Resetting the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision of curricula -based textbooks covering the follow",
+            "vector_score": 1.1401,
+            "keyword_score": 0.5969,
+            "combined_score": 0.9772,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 185400,
+              "char_end": 187400,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 4,
+            "source": "budget_pdf",
+            "text": "million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK Introduction 396. Mr. Speaker, the Theme Resetting the Economy for the Ghana We Want the implementation of prudent and sustainable programmes and interventions that drives inclusive growth and robust job creation across the country. 397. The Medium -Term National Development Policy Framework (MTNDPF 2022 -2025) is being implemented through the plans of sector Ministries, Departments and Agencies, as well as District Assemblies. This section, therefore, highlights the performance of the sect ors in 2024 with regard to the implementation of the MTNDPF 2022 -2025 and provide the outlook for the MDAs in line with the Executive Instrument (E.I. 1, 2025) and the State of the Nation (SONA) as presented by H.E. The President on the 27th of February, 2 025. 398. The 2025 Budget introduces transformative sectoral programmes and projects designed to stimulate economic growth and development. These strategic initiatives includes: i. implementing the Adwumawura programme ii. the Teacher Dabr \u025b Initiative iii. the Poultry Farm to Table and Nkoko Nkitinkiti Projects ; iv. MahamaCare s; v. E-okada ; and vi. One Million Coders Project . Administration Sectors 399. The main focus of the Administration Sector is to ensure effective democratic governance, public financial management, local governance administration, public accountability, public policy management, as well as good international relations, development co mmunications, and civil society engagement. 400. The programmes in this sector aim to achieve the SDGs 1,3,4,6,8,10,12,16, and 17, and Africa Union (AU) Agenda 2063 Goals 2,11,12,13,15,19 and 20. Office of Government Machinery 2024 Performance and Outlook for 2025 401. Mr. Speaker, the Office of Government Machinery (OGM) exists to pro",
+            "vector_score": 1.0679,
+            "keyword_score": 0.2605,
+            "combined_score": 0.8257,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 190800,
+              "char_end": 192800,
+              "chunk_length": 1999,
+              "created_at": "2026-04-21T13:33:59.286272"
+            }
+          },
+          {
+            "rank": 5,
+            "source": "budget_pdf",
+            "text": ".. ................................ 49 2025 Fiscal Framework ................................ ................................ ................................ 50 2025 Macroeconomic Targets ................................ ................................ ...................... 51 2025 Expenditure Measures ................................ ................................ ......................... 51 2025 Revenue Measures ................................ ................................ .............................. 53 2025 Resource Allocation ................................ ................................ ............................. 58 2025 Budget Balances and Financing Operations ................................ ........................ 59 2025 Petroleum Receipts and Utilisation Projection ................................ ...................... 60 2025 Debt Policy Objectives and Liability Management ................................ ................ 61 2025 Key Initiatives and Outlook for the Ghana Stock Exchange ................................ . 63 Medium -Term Vision and Policy Objectives ................................ ................................ .. 64 SECTION 5: KEY POLICY INITIATIVES AND RESOURCE ALLOCATION .................... 69 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK ................................ ......... 74 Introduction ................................ ................................ ................................ ................... 74 Administration Sectors ................................ ................................ ................................ .. 74 Economic Sectors ................................ ................................ ................................ ......... 89 Infrastructure Sectors ................................ ................................ ................................ ... 99 Social Sectors ................................ ................................ ................................ .......",
+            "vector_score": 1.1654,
+            "keyword_score": 0.2554,
+            "combined_score": 0.8924,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 3600,
+              "char_end": 5600,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.285242"
+            }
+          },
+          {
+            "rank": 6,
+            "source": "budget_pdf",
+            "text": "evelopment 1,170,052 346,320,000 347,490,052 Grand TotalCompensation of EmployeesGoods ServicesCAPEX IGFForeign Loans GrantsSn Covered Entity Resetting the Economy for the Ghana We Want 2025 Budget 164 Appendix 4C: MDA Expenditure Allocation (GH ) 2027 Social Sector Summary Social 53,020,378,842 6,782,829,415 1,427,126,711 12,101,144,826 - 73,331,479,793 24 Ministry of Education 36,212,027,707 1,831,993,634 346,320,000 4,109,853,042 - 42,500,194,383 o w MoE Hqtrs and Agencies 36,212,027,707 32,858,723 57,720,000 4,109,853,042 40,412,459,472 o w Existing Interventions in Education 225,017,265 - 225,017,265 o w Construction of Regional STEM Centres - 288,600,000 288,600,000 o w Capitation Grant 180,725,531 - 180,725,531 o w WAEC Exam Fee 42,574,012 - 42,574,012 o w Teacher Trainee Allowances - - - o w Initiatives and Priorities in Education 1,350,818,103 - 1,350,818,103 25 Ministry of Labour, Jobs, and Employment 103,150,379 29,766,072 - 354,196,513 487,112,963 26 Ministry of Sports and Recreation 49,336,683 41,838,552 - 5,330,919 96,506,154 27 National Commission for Civic Education 158,598,177 6,140,118 - 164,738,295 28 Ministry of Youth Development and Empowerment 50,703,948 825,187,154 173,160,000 21,584,683 - 1,070,635,783 o w MoYDE Hqtrs and Agencies 50,703,948 2,026,080 - 52,730,028 o w Scholarship Secretariat 295,454,126 - 295,454,126 o w National Entreprenuership Programme (NEIP) - 527,706,948 173,160,000 - - 722,451,630 o w Adwumawura 135,072,000 57,720,000 192,792,000 o w National Apprenticeship Programme 375,750,947 115,440,000 491,190,947 29 Ministry of Health 16,282,424,513 266,146,785 895,447,589 7,608,622,918 - 25,052,641,806 o w MoH Hqtrs and Agencies 16,282,424,513 88,930,606 87,367,589 7,608,622,918 24,067,345,627 o w Mental Health 5,311,205 - 5,311,205 o w Health Infrastructure - 577,200,000 577,200,000 o w e-Health Project 2,110,500 - 2,110,500 o w Ghana Psychological Council 954,474 - 954,474 o w La General Hospital - 173,160,000 173,160,000 o w",
+            "vector_score": 1.0738,
+            "keyword_score": 0.1484,
+            "combined_score": 0.7962,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 448200,
+              "char_end": 450200,
+              "chunk_length": 1999,
+              "created_at": "2026-04-21T13:33:59.289059"
+            }
+          },
+          {
+            "rank": 7,
+            "source": "budget_pdf",
+            "text": "ccredited Training Providers under the Ghana TVET Voucher Project. In addition, a total of 10,089 learners completed their apprenticeship training under the Ghana Jobs and Skills Apprenticeship Programme. 641. Mr. Speaker, the Ministry will commence the construction of six regional TVET Centres of Excellence. These Centres will equip our youth with practical, relevant skills to thrive in the evolving job market. 642. Mr. Speaker, Government continued with the implementation of the Free Senior High School Programme which continues to create and expand access to secondary education. Enrolment of first year students for the 2024 2025 academic year stands at 482,100. This brings the provisional enrolment for the 2024 2025 academic year to 1,449,833. 643. Mr. Speaker, Government will waive academic fees for all first -year students in all public tertiary institutions to promote access to higher education. Government in addition, will implement free tertiary education for Persons with Disabilities. This polic y will encourage more students to pursue tertiary education and reduce financial burden on families and reflects our unwavering commitment to inclusivity and equal opportunities for all Ghanaians. 644. Mr. Speaker, Government, in collaboration with tertiary institutions and the Ghana National Chamber of Commerce and Industry (GNCCI), will launch the GNCCI Youth Chamber in tertiary institutions. The Programme, which aims at fostering a dynamic entrepreneu rial ecosystem among Ghana s youth will bridge the gap between academia and industry and provide an opportunity to empower the next generation of graduate techpreneurs with professional guidance and mentorship. Resetting the Economy for the Ghana We Want 2025 Budget 107 645. The Programme will be rolled out in five public tertiary institutions in 2025 and scaled up subsequently to nurture young minds to become job creators rather than job seekers by equipping them with the necessary tools to navigate the business wor",
+            "vector_score": 1.1656,
+            "keyword_score": 0.2344,
+            "combined_score": 0.8863,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 291600,
+              "char_end": 293600,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.287531"
+            }
+          },
+          {
+            "rank": 8,
+            "source": "budget_pdf",
+            "text": "4 1,260,095,850 - 1,918,773,313 o w MoT Hqtrs and Agencies 39,214,849 4,634,190 163,255,164 1,260,095,850 1,467,200,053 o w Railways Development 1,357,261 450,216,000 451,573,261 IGFForeign Loans GrantsGrand TotalCompensation of EmployeesGoods Services CAPEX Sn Covered Entity Resetting the Economy for the Ghana We Want 2025 Budget 170 Appendix 4D: MDA Expenditure Allocation (GH ) 2028 Social Sector Summary Social 59,913,028,092 7,521,990,444 1,855,264,725 13,136,812,175 - 82,427,095,434 24 Ministry of Education 40,919,591,309 2,110,654,574 450,216,000 4,313,352,267 - 47,793,814,150 o w MoE Hqtrs and Agencies 40,919,591,309 38,116,118 75,036,000 4,313,352,267 45,346,095,695 o w Existing Interventions in Education 261,020,028 - 261,020,028 o w Construction of Regional STEM Centres - 375,180,000 375,180,000 o w Capitation Grant 195,183,574 - 195,183,574 o w WAEC Exam Fee 49,385,854 - 49,385,854 o w Teacher Trainee Allowances - - - o w Initiatives and Priorities in Education 1,566,948,999 - 1,566,948,999 25 Ministry of Labour, Jobs, and Employment 116,559,928 34,528,643 - 422,482,901 573,571,473 26 Ministry of Sports and Recreation 55,750,451 48,532,720 - 6,130,557 110,413,728 27 National Commission for Civic Education 179,215,940 7,122,537 - 186,338,477 28 Ministry of Youth Development and Empowerment 57,295,461 927,157,023 225,108,000 23,686,621 - 1,233,247,104 o w MoYDE Hqtrs and Agencies 57,295,461 2,350,253 - 23,686,621 83,332,335 o w Scholarship Secretariat 342,726,786 - 342,726,786 o w National Entreprenuership Programme (NEIP) - 582,079,984 225,108,000 - - 807,187,983 o w Adwumawura 156,683,520 75,036,000 231,719,520 o w National Apprenticeship Programme 405,811,022 150,072,000 555,883,022 29 Ministry of Health 18,399,139,700 308,730,271 1,164,081,866 8,369,132,538 - 28,241,084,375 o w MoH Hqtrs and Agencies 18,399,139,700 103,159,503 113,577,866 8,369,132,538 26,985,009,607 o w Mental Health 6,160,998 - 6,160,998 o w Health Infrastructure - 750,360,000 750,360,",
+            "vector_score": 1.0987,
+            "keyword_score": 0.1518,
+            "combined_score": 0.8146,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 460800,
+              "char_end": 462800,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.289059"
+            }
+          },
+          {
+            "rank": 9,
+            "source": "budget_pdf",
+            "text": "Budget 223 Appendix 8D: 2027 Internally Generated Funds Retention (Expenditure) Breakdown by MDAS SOCIAL SECTOR 2,102,174,686 7,714,756,692 2,536,734,804 12,353,666,183 Ministry of Education 761,846,603 2,074,350,778 1,273,655,660 4,109,853,042 GES and Others: 1,185,816 223,268,795 24,191,440 248,646,051 Centre for National Distance Learning and Open Schooling - 2,940,000 - 2,940,000 Commission for Technical and Vocational Education and Training - 69,520,322 7,724,480 77,244,803 Encyclopedia Afrikana - 58,095 - 58,095 Ghana Academy of Arts and Science - 1,480,707 - 1,480,707 Ghana Book Devt. Council - 1,372,162 - 1,372,162 Ghana Education Service 427,021 40,567,013 1,708,083 42,702,118 Ghana Library Authority - 950,720 - 950,720 Ghana Science Association - 828,410 - 828,410 National Schools Inspectorate Authority - 16,937,984 2,522,016 19,460,000 West African Examination Council (National) - 7,607,047 1,901,762 9,508,808 National Teaching Council 758,794 81,006,334 10,335,099 92,100,228 Ghana TVET Service - 29,270,871 4,373,808 33,644,679 Ghana TVET Service - Headquarters - 4,770,720 712,866 5,483,586 Ghana TVET Service -Training Institutes - 24,500,151 3,660,942 28,161,093 Universities: 630,249,886 1,194,353,238 1,028,154,479 2,852,757,602 Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development(AMMUSTED) 13,686,491 41,059,474 43,014,687 97,760,652 C. K. Tedam University of Tech. and Applied Sciences 2,348,001 11,740,007 9,046,711 23,134,720 Ghana CommunicationTechnology University 5,777,083 37,180,226 42,038,641 84,995,950 Kwame Nkrumah University of Science and Technology 379,000,225 147,388,977 176,866,772 703,255,974 S. D. Dombo University of Bus. and Int. Devt. Studies 14,003,528 23,339,214 9,335,686 46,678,428 University for Development Studies 26,476,714 55,895,285 64,656,135 147,028,134 University of Cape Coast 16,807,060 196,082,370 184,317,428 397,206,858 University of Education, Winneba 55,509,454 164,848,155 80,291,116 300,648,",
+            "vector_score": 1.0991,
+            "keyword_score": 0.1432,
+            "combined_score": 0.8123,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 649800,
+              "char_end": 651800,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.291603"
+            }
+          },
+          {
+            "rank": 10,
+            "source": "budget_pdf",
+            "text": "wing key corruption prevention interventions: Youth against Corruption (YAC) Initiative; Engagement with Religious Bodies; and Engagement with Professional Bodies. 756. In 2025, the Office will continue and complete investigations already started. Furthermore, the Office will execute high -impact anti -corruption initiatives and recoveries from corruption -related offenses such as investigations and asset recovery operations ; aggressive nationwide anti -corruption education campaigns; and support for intelligence gathering and inter -agency collaborations. Resetting the Economy for the Ghana We Want 2025 Budget 123 SECTION 7: CONCLUSION 757. Mr. Speaker, the state of the economy as I have just presented, does not reflect an economy that has turned the corner; it reflects an economy in severe distress, burdened by debt repayment humps, mismanagement and a lack of accountability. 758. This budget sets Ghana on a path of fiscal responsibility, debt sustainability, macroeconomic stability and job creation. It is about resetting the economy and restoring hope. 759. Ghanaians reaffirmed their faith in a better future when they actively participated in the National Economic Dialogue on 3rd and 4th March, 2025. 760. A key outcome of the Dialogue was the confirmation that the fundamental problem with our economy is fiscal indiscipline. 761. The NPP administration awarded contracts outside the expenditure framework. 762. They borrowed over and above Ghana s capacity to repay. 763. Mr. Speaker , H.E John Mahama s administration will be fiscally disciplined and deliver improved public services to our people in a cost -effective manner. 764. We remain steadfast in meeting the IMF programme targets while restoring Ghana s creditworthiness. 765. We have achieved a lot in a short time, but this is only the beginning. Our commitment to reform will not waver. 766. Those who doubt our resolve underestimate the determination of the people of Ghana, who will no longer tolerate ineffect",
+            "vector_score": 1.1699,
+            "keyword_score": 0.1294,
+            "combined_score": 0.8577,
+            "metadata": {
+              "data_type": "budget_document",
+              "total_length": 689315,
+              "estimated_pages": 229,
+              "char_start": 342000,
+              "char_end": 344000,
+              "chunk_length": 2000,
+              "created_at": "2026-04-21T13:33:59.288071"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.134290",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 6,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 2999,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.136287",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "structured",
+        "word_count": 286,
+        "char_count": 2056,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer in bullet points with [Source: X] citations.\n\nContext:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benef...",
+        "final_prompt_sent_to_llm": "# SYSTEM: Answer in bullet points with [Source: X] citations.\n\nContext:\n[budget_pdf] r of beneficiary households will be increased from 350,000 to 400,000 from July 2025. The allocation for LEAP benefits has also been increased by 30.8 from GH 728.8 million to GH 953.5 million in 2025. 387. Mr. Speaker, we have also uncapped the Road Fund. An amount of GH 2.81 billion has been progr\n\n[budget_pdf] tation, and maximize the economic benefits of remittances and boost foreign exchange earnings. 2025 Allocations to Key Policy Initiatives and Interventions 372. Mr. Speaker, we will provision a cedi equivalent of US 279 million as a revolving fund for the Ghana Gold Board (GOLDBOD) to be able to pur\n\n[budget_pdf] .. ................................ 49 2025 Fiscal Framework ................................ ................................ ................................ 50 2025 Macroeconomic Targets ................................ ................................ ...................... 51 2025 Expenditure M\n\n[budget_pdf] ccredited Training Providers under the Ghana TVET Voucher Project. In addition, a total of 10,089 learners completed their apprenticeship training under the Ghana Jobs and Skills Apprenticeship Programme. 641. Mr. Speaker, the Ministry will commence the construction of six regional TVET Centres of E\n\n[budget_pdf] wing key corruption prevention interventions: Youth against Corruption (YAC) Initiative; Engagement with Religious Bodies; and Engagement with Professional Bodies. 756. In 2025, the Office will continue and complete investigations already started. Furthermore, the Office will execute high -impact an\n\n[budget_pdf] million. 395. Mr. Speaker, an amount of GH 100 million has been allocated for the payment of monthly allowance to all Assembly Members. Resetting the Economy for the Ghana We Want 2025 Budget 74 SECTION 6: SECTORAL PERFORMANCE AND OUTLOOK Introduction 396. Mr. Speaker, the Theme Resetting the Econom\n\nQuestion: What was allocated for education in the 2025 budget?\n\nAnswer (bullets with sources):"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.137287",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 199,
+        "response_words": 28,
+        "response_preview": "\u2022 GH\u20b5564.6 million for textbooks and learning materials [Source: budget_pdf]\n\u2022 TVET programs for skills development [Source: budget_pdf]\n\u2022 \u26a0\ufe0f Total ed..."
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.138287",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 235,
+        "final_words": 33,
+        "citations_included": true,
+        "uncertainty_marked": true
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.148020",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "Which party won the Greater Accra region in 2020?",
+        "length": 49,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.188161",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.656,
+        "sources": [
+          "election_csv"
+        ],
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "source": "election_csv",
+            "text": "Election Result Row 75: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 1763. votes(%): 0.07",
+            "vector_score": 0.5463,
+            "keyword_score": 0.9126,
+            "combined_score": 0.6562,
+            "metadata": {
+              "row_index": 74,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 2,
+            "source": "election_csv",
+            "text": "Election Result Row 79: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Hassan Ayariga. party: APC. votes: 628. votes(%): 0.02",
+            "vector_score": 0.5703,
+            "keyword_score": 0.8444,
+            "combined_score": 0.6525,
+            "metadata": {
+              "row_index": 78,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 3,
+            "source": "election_csv",
+            "text": "Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. votes(%): 0.44",
+            "vector_score": 0.7078,
+            "keyword_score": 0.8303,
+            "combined_score": 0.7446,
+            "metadata": {
+              "row_index": 350,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 4,
+            "source": "election_csv",
+            "text": "Election Result Row 526: year: 2000. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: J. A. Kuffour. party: NPP. votes: 1206243. votes(%): 56.16",
+            "vector_score": 0.7134,
+            "keyword_score": 0.7874,
+            "combined_score": 0.7356,
+            "metadata": {
+              "row_index": 525,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 5,
+            "source": "election_csv",
+            "text": "Election Result Row 237: year: 2016. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 2061. votes(%): 0.10",
+            "vector_score": 0.5784,
+            "keyword_score": 0.8222,
+            "combined_score": 0.6515,
+            "metadata": {
+              "row_index": 236,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 6,
+            "source": "election_csv",
+            "text": "Election Result Row 600: year: 1992. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Others. party: Others. votes: 48619. votes(%): 9.59",
+            "vector_score": 0.6304,
+            "keyword_score": 0.9171,
+            "combined_score": 0.7164,
+            "metadata": {
+              "row_index": 599,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 7,
+            "source": "election_csv",
+            "text": "Election Result Row 77: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Alfred Kwame Asiedu Walker. party: IND. votes: 511. votes(%): 0.02",
+            "vector_score": 0.6755,
+            "keyword_score": 0.8523,
+            "combined_score": 0.7286,
+            "metadata": {
+              "row_index": 76,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 8,
+            "source": "election_csv",
+            "text": "Election Result Row 80: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 1220. votes(%): 0.05",
+            "vector_score": 0.6039,
+            "keyword_score": 0.9443,
+            "combined_score": 0.706,
+            "metadata": {
+              "row_index": 79,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 9,
+            "source": "election_csv",
+            "text": "Election Result Row 73: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Akufo Addo. party: NPP. votes: 1253179. votes(%): 48.15",
+            "vector_score": 0.667,
+            "keyword_score": 0.8603,
+            "combined_score": 0.725,
+            "metadata": {
+              "row_index": 72,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 10,
+            "source": "election_csv",
+            "text": "Election Result Row 436: year: 2008. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Addo. party: NPP. votes: 766448. votes(%): 46.35",
+            "vector_score": 0.7139,
+            "keyword_score": 0.775,
+            "combined_score": 0.7322,
+            "metadata": {
+              "row_index": 435,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.190168",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 10,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 468,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.192164",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "basic",
+        "word_count": 297,
+        "char_count": 2121,
+        "has_constraints": false,
+        "prompt_preview": "Context:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. v...",
+        "final_prompt_sent_to_llm": "Context:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. votes(%): 0.44\n\n[election_csv] Election Result Row 526: year: 2000. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: J. A. Kuffour. party: NPP. votes: 1206243. votes(%): 56.16\n\n[election_csv] Election Result Row 436: year: 2008. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Addo. party: NPP. votes: 766448. votes(%): 46.35\n\n[election_csv] Election Result Row 77: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Alfred Kwame Asiedu Walker. party: IND. votes: 511. votes(%): 0.02\n\n[election_csv] Election Result Row 73: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Akufo Addo. party: NPP. votes: 1253179. votes(%): 48.15\n\n[election_csv] Election Result Row 600: year: 1992. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Others. party: Others. votes: 48619. votes(%): 9.59\n\n[election_csv] Election Result Row 80: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 1220. votes(%): 0.05\n\n[election_csv] Election Result Row 75: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 1763. votes(%): 0.07\n\n[election_csv] Election Result Row 79: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Hassan Ayariga. party: APC. votes: 628. votes(%): 0.02\n\n[election_csv] Election Result Row 237: year: 2016. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 2061. votes(%): 0.10\n\nQuestion: Which party won the Greater Accra region in 2020?\n\nAnswer:"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.195166",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 173,
+        "response_words": 20,
+        "response_preview": "The government allocated significant resources for education including textbooks and various programs. The budget supports learning materials and educ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.198041",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 204,
+        "final_words": 25,
+        "citations_included": false,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.207217",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "Which party won the Greater Accra region in 2020?",
+        "length": 49,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.244850",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.656,
+        "sources": [
+          "election_csv"
+        ],
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "source": "election_csv",
+            "text": "Election Result Row 75: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 1763. votes(%): 0.07",
+            "vector_score": 0.5463,
+            "keyword_score": 0.9126,
+            "combined_score": 0.6562,
+            "metadata": {
+              "row_index": 74,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 2,
+            "source": "election_csv",
+            "text": "Election Result Row 79: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Hassan Ayariga. party: APC. votes: 628. votes(%): 0.02",
+            "vector_score": 0.5703,
+            "keyword_score": 0.8444,
+            "combined_score": 0.6525,
+            "metadata": {
+              "row_index": 78,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 3,
+            "source": "election_csv",
+            "text": "Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. votes(%): 0.44",
+            "vector_score": 0.7078,
+            "keyword_score": 0.8303,
+            "combined_score": 0.7446,
+            "metadata": {
+              "row_index": 350,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 4,
+            "source": "election_csv",
+            "text": "Election Result Row 526: year: 2000. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: J. A. Kuffour. party: NPP. votes: 1206243. votes(%): 56.16",
+            "vector_score": 0.7134,
+            "keyword_score": 0.7874,
+            "combined_score": 0.7356,
+            "metadata": {
+              "row_index": 525,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 5,
+            "source": "election_csv",
+            "text": "Election Result Row 237: year: 2016. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 2061. votes(%): 0.10",
+            "vector_score": 0.5784,
+            "keyword_score": 0.8222,
+            "combined_score": 0.6515,
+            "metadata": {
+              "row_index": 236,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 6,
+            "source": "election_csv",
+            "text": "Election Result Row 600: year: 1992. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Others. party: Others. votes: 48619. votes(%): 9.59",
+            "vector_score": 0.6304,
+            "keyword_score": 0.9171,
+            "combined_score": 0.7164,
+            "metadata": {
+              "row_index": 599,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 7,
+            "source": "election_csv",
+            "text": "Election Result Row 77: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Alfred Kwame Asiedu Walker. party: IND. votes: 511. votes(%): 0.02",
+            "vector_score": 0.6755,
+            "keyword_score": 0.8523,
+            "combined_score": 0.7286,
+            "metadata": {
+              "row_index": 76,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 8,
+            "source": "election_csv",
+            "text": "Election Result Row 80: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 1220. votes(%): 0.05",
+            "vector_score": 0.6039,
+            "keyword_score": 0.9443,
+            "combined_score": 0.706,
+            "metadata": {
+              "row_index": 79,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 9,
+            "source": "election_csv",
+            "text": "Election Result Row 73: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Akufo Addo. party: NPP. votes: 1253179. votes(%): 48.15",
+            "vector_score": 0.667,
+            "keyword_score": 0.8603,
+            "combined_score": 0.725,
+            "metadata": {
+              "row_index": 72,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 10,
+            "source": "election_csv",
+            "text": "Election Result Row 436: year: 2008. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Addo. party: NPP. votes: 766448. votes(%): 46.35",
+            "vector_score": 0.7139,
+            "keyword_score": 0.775,
+            "combined_score": 0.7322,
+            "metadata": {
+              "row_index": 435,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.245852",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 10,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 468,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.247457",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "strict",
+        "word_count": 311,
+        "char_count": 2203,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer ONLY from context. Say \"I don't know\" if unsure.\n\nContext:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code...",
+        "final_prompt_sent_to_llm": "# SYSTEM: Answer ONLY from context. Say \"I don't know\" if unsure.\n\nContext:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. votes(%): 0.44\n\n[election_csv] Election Result Row 526: year: 2000. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: J. A. Kuffour. party: NPP. votes: 1206243. votes(%): 56.16\n\n[election_csv] Election Result Row 436: year: 2008. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Addo. party: NPP. votes: 766448. votes(%): 46.35\n\n[election_csv] Election Result Row 77: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Alfred Kwame Asiedu Walker. party: IND. votes: 511. votes(%): 0.02\n\n[election_csv] Election Result Row 73: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Akufo Addo. party: NPP. votes: 1253179. votes(%): 48.15\n\n[election_csv] Election Result Row 600: year: 1992. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Others. party: Others. votes: 48619. votes(%): 9.59\n\n[election_csv] Election Result Row 80: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 1220. votes(%): 0.05\n\n[election_csv] Election Result Row 75: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 1763. votes(%): 0.07\n\n[election_csv] Election Result Row 79: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Hassan Ayariga. party: APC. votes: 628. votes(%): 0.02\n\n[election_csv] Election Result Row 237: year: 2016. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 2061. votes(%): 0.10\n\nQuestion: Which party won the Greater Accra region in 2020?\n\nAnswer (cite sources):"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.248367",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 171,
+        "response_words": 25,
+        "response_preview": "Based on the provided documents, GH\u20b5564.6 million was allocated for textbooks [Source: budget_pdf]. I don't have the total education budget figure in ..."
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.249371",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 203,
+        "final_words": 30,
+        "citations_included": true,
+        "uncertainty_marked": false
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.262367",
+      "stage": 1,
+      "stage_name": "USER QUERY",
+      "details": {
+        "query": "Which party won the Greater Accra region in 2020?",
+        "length": 49,
+        "words": 9
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.299978",
+      "stage": 2,
+      "stage_name": "RETRIEVAL (Part B)",
+      "details": {
+        "method": "Hybrid (70% vector + 30% TF-IDF)",
+        "k_requested": 10,
+        "k_returned": 10,
+        "top_score": 0.656,
+        "sources": [
+          "election_csv"
+        ],
+        "retrieved_documents": [
+          {
+            "rank": 1,
+            "source": "election_csv",
+            "text": "Election Result Row 75: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 1763. votes(%): 0.07",
+            "vector_score": 0.5463,
+            "keyword_score": 0.9126,
+            "combined_score": 0.6562,
+            "metadata": {
+              "row_index": 74,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 2,
+            "source": "election_csv",
+            "text": "Election Result Row 79: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Hassan Ayariga. party: APC. votes: 628. votes(%): 0.02",
+            "vector_score": 0.5703,
+            "keyword_score": 0.8444,
+            "combined_score": 0.6525,
+            "metadata": {
+              "row_index": 78,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 3,
+            "source": "election_csv",
+            "text": "Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. votes(%): 0.44",
+            "vector_score": 0.7078,
+            "keyword_score": 0.8303,
+            "combined_score": 0.7446,
+            "metadata": {
+              "row_index": 350,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 4,
+            "source": "election_csv",
+            "text": "Election Result Row 526: year: 2000. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: J. A. Kuffour. party: NPP. votes: 1206243. votes(%): 56.16",
+            "vector_score": 0.7134,
+            "keyword_score": 0.7874,
+            "combined_score": 0.7356,
+            "metadata": {
+              "row_index": 525,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 5,
+            "source": "election_csv",
+            "text": "Election Result Row 237: year: 2016. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 2061. votes(%): 0.10",
+            "vector_score": 0.5784,
+            "keyword_score": 0.8222,
+            "combined_score": 0.6515,
+            "metadata": {
+              "row_index": 236,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 6,
+            "source": "election_csv",
+            "text": "Election Result Row 600: year: 1992. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Others. party: Others. votes: 48619. votes(%): 9.59",
+            "vector_score": 0.6304,
+            "keyword_score": 0.9171,
+            "combined_score": 0.7164,
+            "metadata": {
+              "row_index": 599,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 7,
+            "source": "election_csv",
+            "text": "Election Result Row 77: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Alfred Kwame Asiedu Walker. party: IND. votes: 511. votes(%): 0.02",
+            "vector_score": 0.6755,
+            "keyword_score": 0.8523,
+            "combined_score": 0.7286,
+            "metadata": {
+              "row_index": 76,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 8,
+            "source": "election_csv",
+            "text": "Election Result Row 80: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 1220. votes(%): 0.05",
+            "vector_score": 0.6039,
+            "keyword_score": 0.9443,
+            "combined_score": 0.706,
+            "metadata": {
+              "row_index": 79,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 9,
+            "source": "election_csv",
+            "text": "Election Result Row 73: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Akufo Addo. party: NPP. votes: 1253179. votes(%): 48.15",
+            "vector_score": 0.667,
+            "keyword_score": 0.8603,
+            "combined_score": 0.725,
+            "metadata": {
+              "row_index": 72,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          },
+          {
+            "rank": 10,
+            "source": "election_csv",
+            "text": "Election Result Row 436: year: 2008. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Addo. party: NPP. votes: 766448. votes(%): 46.35",
+            "vector_score": 0.7139,
+            "keyword_score": 0.775,
+            "combined_score": 0.7322,
+            "metadata": {
+              "row_index": 435,
+              "data_type": "election_result",
+              "columns_present": [
+                "year",
+                "old region",
+                "new region",
+                "code",
+                "candidate",
+                "party",
+                "votes",
+                "votes(%)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.301504",
+      "stage": 3,
+      "stage_name": "CONTEXT SELECTION",
+      "details": {
+        "original_chunks": 10,
+        "selected_chunks": 10,
+        "context_limit": "3000 tokens",
+        "estimated_tokens": 468,
+        "selection_method": "Rank by score + truncate to fit"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.302498",
+      "stage": 4,
+      "stage_name": "PROMPT BUILDING",
+      "details": {
+        "style": "structured",
+        "word_count": 310,
+        "char_count": 2207,
+        "has_constraints": true,
+        "prompt_preview": "# SYSTEM: Answer in bullet points with [Source: X] citations.\n\nContext:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Ot...",
+        "final_prompt_sent_to_llm": "# SYSTEM: Answer in bullet points with [Source: X] citations.\n\nContext:\n[election_csv] Election Result Row 351: year: 2012. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 9532. votes(%): 0.44\n\n[election_csv] Election Result Row 526: year: 2000. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: J. A. Kuffour. party: NPP. votes: 1206243. votes(%): 56.16\n\n[election_csv] Election Result Row 436: year: 2008. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Addo. party: NPP. votes: 766448. votes(%): 46.35\n\n[election_csv] Election Result Row 77: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Alfred Kwame Asiedu Walker. party: IND. votes: 511. votes(%): 0.02\n\n[election_csv] Election Result Row 73: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: NPP. candidate: Nana Akufo Addo. party: NPP. votes: 1253179. votes(%): 48.15\n\n[election_csv] Election Result Row 600: year: 1992. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Others. party: Others. votes: 48619. votes(%): 9.59\n\n[election_csv] Election Result Row 80: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Bridget Dzogbenuku. party: PPP. votes: 1220. votes(%): 0.05\n\n[election_csv] Election Result Row 75: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 1763. votes(%): 0.07\n\n[election_csv] Election Result Row 79: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Hassan Ayariga. party: APC. votes: 628. votes(%): 0.02\n\n[election_csv] Election Result Row 237: year: 2016. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Ivor Kobina Greenstreet. party: CPP. votes: 2061. votes(%): 0.10\n\nQuestion: Which party won the Greater Accra region in 2020?\n\nAnswer (bullets with sources):"
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.303497",
+      "stage": 5,
+      "stage_name": "LLM RESPONSE",
+      "details": {
+        "type": "Simulated",
+        "response_length": 199,
+        "response_words": 28,
+        "response_preview": "\u2022 GH\u20b5564.6 million for textbooks and learning materials [Source: budget_pdf]\n\u2022 TVET programs for skills development [Source: budget_pdf]\n\u2022 \u26a0\ufe0f Total ed..."
+      }
+    },
+    {
+      "timestamp": "2026-04-23T00:08:32.307121",
+      "stage": 6,
+      "stage_name": "FINAL RESPONSE",
+      "details": {
+        "final_length": 235,
+        "final_words": 33,
+        "citations_included": true,
+        "uncertainty_marked": true
+      }
+    }
+  ]
+}

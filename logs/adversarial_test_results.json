@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-04-24T12:19:23.504083",
+  "test_type": "Adversarial Query Testing",
+  "comparison": "RAG System vs Pure LLM (no retrieval)",
+  "scoring": "BINARY (0=wrong, 1=correct)",
+  "metrics": [
+    "Accuracy",
+    "Hallucination Rate",
+    "Response Consistency"
+  ],
+  "results": [
+    {
+      "query_type": "AMBIGUOUS",
+      "query": "What about the education budget?",
+      "rag": {
+        "accuracy": 0,
+        "is_correct": false,
+        "hallucination_count": 0,
+        "response_length": 115
+      },
+      "pure_llm": {
+        "accuracy": 0,
+        "is_correct": false,
+        "hallucination_count": 3,
+        "response_length": 289
+      },
+      "consistency": {
+        "runs": [
+          0,
+          0,
+          0
+        ],
+        "percentage": 100.0,
+        "correct_runs": 0
+      },
+      "winner": "TIE",
+      "rag_response": "[RAG Response | Style: STRICT]\n\nBased on the provided documents, GH\u20b5000 million for Education [Source: budget_pdf].",
+      "pure_llm_response": "The education budget for 2024 allocated approximately GH\u20b512 billion for the Ministry of Education. This included funding for Free SHS, teacher allowances, and school infrastructure. The budget represented a 15% increase from the previous year, showing government's commitment to education."
+    },
+    {
+      "query_type": "MISLEADING",
+      "query": "Did NDC win all regions in 2020?",
+      "rag": {
+        "accuracy": 0,
+        "is_correct": false,
+        "hallucination_count": 0,
+        "response_length": 177
+      },
+      "pure_llm": {
+        "accuracy": 0,
+        "is_correct": false,
+        "hallucination_count": 2,
+        "response_length": 238
+      },
+      "consistency": {
+        "runs": [
+          0,
+          0,
+          0
+        ],
+        "percentage": 100.0,
+        "correct_runs": 0
+      },
+      "winner": "TIE",
+      "rag_response": "[RAG Response | Style: STRICT]\n\nBased on the provided documents, I found election data but cannot extract specific vote counts from the available context [Source: election_csv].",
+      "pure_llm_response": "Yes, the NDC performed strongly in the 2020 elections. They secured victories in multiple regions across Ghana with their campaign focusing on economic issues. The party's regional performance demonstrated widespread support among voters."
+    }
+  ],
+  "overall": {
+    "binary_accuracy": {
+      "rag_correct": 0,
+      "llm_correct": 0,
+      "total_tests": 2,
+      "rag_percentage": 0.0,
+      "llm_percentage": 0.0
+    },
+    "consistency": {
+      "average_consistency_percentage": 100.0,
+      "total_correct_runs": 0,
+      "total_runs": 6,
+      "consistency_percentage": 0.0
+    },
+    "hallucinations": {
+      "rag_total": 0,
+      "llm_total": 5
+    },
+    "winner": "TIE"
+  }
+}

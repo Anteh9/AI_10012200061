@@ -1,0 +1,324 @@
+{
+  "timestamp": "2026-04-21T16:51:35.046826",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "vector_store": "ChromaDB",
+  "total_chunks": 998,
+  "features": [
+    "hybrid_search",
+    "reranking",
+    "failure_analysis",
+    "fix_implementation"
+  ],
+  "retrieval_results": {
+    "What were the election results in Greater Accra region?": {
+      "results": [
+        {
+          "text": "Election Result Row 600: year: 1992. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Others. party: Other",
+          "score": 0.5664674013853073,
+          "source": "election_csv"
+        },
+        {
+          "text": "Election Result Row 81: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Akua Donkor. party: G",
+          "score": 0.5541033307384269,
+          "source": "election_csv"
+        },
+        {
+          "text": "Election Result Row 79: year: 2020. old region: Greater Accra Region. new region: Greater Accra Region. code: Others. candidate: Hassan Ayariga. party",
+          "score": 0.5586827796292232,
+          "source": "election_csv"
+        }
+      ]
+    },
+    "How much was allocated to education in the 2025 budget?": {
+      "results": [
+        {
+          "text": "ng the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision",
+          "score": 0.689802133446833,
+          "source": "budget_pdf"
+        },
+        {
+          "text": "DA Expenditure Allocation (GH ) 2026 Social Sector Summary Social 46,509,104,247 5,839,036,565 1,097,789,778 10,449,447,874 602,391,600 64,497,770,063",
+          "score": 0.7728033060404785,
+          "source": "budget_pdf"
+        },
+        {
+          "text": "s, gratuities , and social security has been programmed at GH 76.6 billion . This reflects the 10 increase in the base pay granted to public servants ",
+          "score": 0.7839459891649744,
+          "source": "budget_pdf"
+        }
+      ]
+    },
+    "What is the GDP growth rate mentioned in the budget?": {
+      "results": [
+        {
+          "text": "-0.6 -0.6 -1.2 0.5 0.3 0.5 0.7 Memorandum items: 23Non-oil Domestic Revenue 15.1 15.6 14.0 14.7 15.4 15.4 15.6 Resetting the Economy for the Ghana We ",
+          "score": 0.6507225029538329,
+          "source": "budget_pdf"
+        },
+        {
+          "text": "al objective is to reduce primary expenditure as a share of GDP to below the 2023 level as part of our commitment to frontload the fiscal adjustment. ",
+          "score": 0.7702916112129754,
+          "source": "budget_pdf"
+        },
+        {
+          "text": "the Appendix 9 of the 2024 Annual Report on the Petroleum Funds. Table 32: 2024 ABFA Budget Allocation vs. Actual Utilisation by Priority Areas (GH Mn",
+          "score": 0.6593763998660177,
+          "source": "budget_pdf"
+        }
+      ]
+    },
+    "Which party won the most seats in the election?": {
+      "results": [
+        {
+          "text": "Election Result Row 520: year: 2000. old region: Central Region. new region: Central Region. code: Others. candidate: Dan Lartey. party: GCPP. votes: ",
+          "score": 0.6426103201080925,
+          "source": "election_csv"
+        },
+        {
+          "text": "Election Result Row 525: year: 2000. old region: Eastern Region. new region: Eastern Region. code: Others. candidate: Dan Lartey. party: GCPP. votes: ",
+          "score": 0.6450236904898954,
+          "source": "election_csv"
+        },
+        {
+          "text": "Election Result Row 603: year: 1992. old region: Northern Region. new region: Northern Region. code: Others. candidate: Others. party: Others. votes: ",
+          "score": 0.6579644320657432,
+          "source": "election_csv"
+        }
+      ]
+    },
+    "Who won?": {
+      "results": [
+        {
+          "text": "Election Result Row 432: year: 2008. old region: Eastern Region. new region: Eastern Region. code: NDC. candidate: J. A Mills. party: NDC. votes: 3535",
+          "score": 0.8943565845489502,
+          "source": "election_csv"
+        },
+        {
+          "text": "Election Result Row 563: year: 1996. old region: Central Region. new region: Central Region. code: NDC. candidate: J. J. Rawlings. party: NDC. votes: ",
+          "score": 0.9038145780563354,
+          "source": "election_csv"
+        },
+        {
+          "text": "Election Result Row 462: year: 2008. old region: Western Region. new region: Western Region. code: NDC. candidate: J. A Mills. party: NDC. votes: 3996",
+          "score": 0.9091250300407409,
+          "source": "election_csv"
+        }
+      ]
+    },
+    "Money for schools": {
+      "results": [
+        {
+          "text": "tation, and maximize the economic benefits of remittances and boost foreign exchange earnings. 2025 Allocations to Key Policy Initiatives and Interven",
+          "score": 0.7739830474361112,
+          "source": "budget_pdf"
+        },
+        {
+          "text": "r. Speaker, the provision and retention of teachers in schools regardless of their location is an essential input to the attainment of an inclusive an",
+          "score": 1.038573900148863,
+          "source": "budget_pdf"
+        },
+        {
+          "text": "ng the Economy for the Ghana We Want 2025 Budget 72 380. Mr. Speaker, we have also allocated an amount of GH 564.6 million for comprehensive provision",
+          "score": 0.82923743724823,
+          "source": "budget_pdf"
+        }
+      ]
+    }
+  },
+  "failure_analysis": {
+    "tests": [
+      {
+        "query": "What were the election results in Greater Accra region?",
+        "type": "normal_specific",
+        "issue": "None - well-formed query",
+        "fix": "None needed",
+        "expected_success": true,
+        "avg_score": 0.5597511705843191,
+        "is_failure": "False",
+        "irrelevant_count": 0,
+        "total_retrieved": 3
+      },
+      {
+        "query": "How much was allocated to education in the 2025 budget?",
+        "type": "normal_specific",
+        "issue": "None - well-formed query",
+        "fix": "None needed",
+        "expected_success": true,
+        "avg_score": 0.7488504762174286,
+        "is_failure": "False",
+        "irrelevant_count": 1,
+        "total_retrieved": 3
+      },
+      {
+        "query": "Which party won the most seats in 2020 election?",
+        "type": "normal_specific",
+        "issue": "None - well-formed query",
+        "fix": "None needed",
+        "expected_success": true,
+        "avg_score": 0.6786628939174847,
+        "is_failure": "False",
+        "irrelevant_count": 0,
+        "total_retrieved": 3
+      },
+      {
+        "query": "What is the GDP growth rate mentioned in the budget?",
+        "type": "normal_specific",
+        "issue": "None - well-formed query",
+        "fix": "None needed",
+        "expected_success": true,
+        "avg_score": 0.6934635046776086,
+        "is_failure": "False",
+        "irrelevant_count": 0,
+        "total_retrieved": 3
+      },
+      {
+        "query": "Education budget allocation",
+        "type": "challenging_short",
+        "issue": "Short query may miss context",
+        "fix": "Query expansion adds budget year context",
+        "expected_success": true,
+        "avg_score": 0.8062579126883679,
+        "is_failure": "False",
+        "irrelevant_count": 0,
+        "total_retrieved": 3
+      },
+      {
+        "query": "Ashanti region NPP votes",
+        "type": "challenging_short",
+        "issue": "Missing election year",
+        "fix": "Expansion adds year context",
+        "expected_success": true,
+        "avg_score": 0.5589440246423086,
+        "is_failure": "False",
+        "irrelevant_count": 0,
+        "total_retrieved": 3
+      },
+      {
+        "query": "Who won?",
+        "type": "vague",
+        "issue": "No temporal or spatial context - could mean any election anywhere",
+        "fix": "Query clarification - ask for specific year and region",
+        "expected_success": false,
+        "avg_score": 0.9024320642153422,
+        "is_failure": true,
+        "irrelevant_count": 3,
+        "total_retrieved": 3
+      },
+      {
+        "query": "Money for schools",
+        "type": "informal",
+        "issue": "Colloquial \"money\" vs formal \"allocation/budget\"",
+        "fix": "Domain vocabulary mapping",
+        "expected_success": false,
+        "avg_score": 0.8805981282777348,
+        "is_failure": "False",
+        "irrelevant_count": 1,
+        "total_retrieved": 3
+      },
+      {
+        "query": "Why did economy crash 2025?",
+        "type": "false_premise",
+        "issue": "Assumes false fact - economy grew, not crashed",
+        "fix": "Premise validation - flip to positive question",
+        "expected_success": false,
+        "avg_score": 0.8232193801550153,
+        "is_failure": "False",
+        "irrelevant_count": 0,
+        "total_retrieved": 3
+      }
+    ],
+    "failure_rate": 0.1111111111111111,
+    "failure_examples": [
+      {
+        "query": "Who won?",
+        "type": "vague",
+        "irrelevant_docs": [
+          {
+            "rank": 1,
+            "text": "Election Result Row 432: year: 2008. old region: Eastern Region. new region: Eastern Region. code: NDC. candidate: J. A Mills. party: NDC. votes: 353522. votes(%): 41.10",
+            "source": "election_csv",
+            "score": 0.8943565845489502,
+            "reason": "Key terms not found in document"
+          },
+          {
+            "rank": 2,
+            "text": "Election Result Row 563: year: 1996. old region: Central Region. new region: Central Region. code: NDC. candidate: J. J. Rawlings. party: NDC. votes: 330841. votes(%): 55.22",
+            "source": "election_csv",
+            "score": 0.9038145780563354,
+            "reason": "Key terms not found in document"
+          },
+          {
+            "rank": 3,
+            "text": "Election Result Row 462: year: 2008. old region: Western Region. new region: Western Region. code: NDC. candidate: J. A Mills. party: NDC. votes: 399620. votes(%): 47.46",
+            "source": "election_csv",
+            "score": 0.9091250300407409,
+            "reason": "Key terms not found in document"
+          }
+        ],
+        "proposed_fix": "Query clarification - ask for specific year and region"
+      }
+    ],
+    "by_type": {
+      "normal": {
+        "total": 4,
+        "failed": "0",
+        "rate": 0.0
+      },
+      "challenging": {
+        "total": 2,
+        "failed": "0",
+        "rate": 0.0
+      },
+      "adversarial": {
+        "total": 3,
+        "failed": "1",
+        "rate": 0.3333333333333333
+      }
+    }
+  },
+  "fix_demonstration": {
+    "fix_demonstrations": [
+      {
+        "original": "Who won?",
+        "fixed": "Who won the 2024 Ghana parliamentary election?",
+        "fix_type": "vague",
+        "before_relevant": 0,
+        "after_relevant": 0,
+        "improvement": 0
+      },
+      {
+        "original": "Money for schools",
+        "fixed": "Money for education OR academic OR capitation OR SHS",
+        "fix_type": "informal",
+        "before_relevant": 1,
+        "after_relevant": 2,
+        "improvement": 1
+      },
+      {
+        "original": "Why did economy crash 2025?",
+        "fixed": "What is the GDP growth projection in the 2025 budget?",
+        "fix_type": "false_premise",
+        "before_relevant": 2,
+        "after_relevant": 2,
+        "improvement": 0
+      },
+      {
+        "original": "Region 5 results",
+        "fixed": "Region 5 results",
+        "fix_type": "obscure",
+        "before_relevant": 2,
+        "after_relevant": 2,
+        "improvement": 0
+      },
+      {
+        "original": "Tell me everything",
+        "fixed": "What are the main budget allocations and election results for Ghana?",
+        "fix_type": "broad",
+        "before_relevant": 0,
+        "after_relevant": 2,
+        "improvement": 2
+      }
+    ],
+    "total_improvement": 3
+  }
+}

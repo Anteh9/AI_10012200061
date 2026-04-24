@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-04-21T13:38:38.302576",
+  "election_data": {
+    "source": "Ghana_Election_Result.csv",
+    "rows_cleaned": 615,
+    "columns": [
+      "year",
+      "old region",
+      "new region",
+      "code",
+      "candidate",
+      "party",
+      "votes",
+      "votes(%)"
+    ]
+  },
+  "budget_data": {
+    "source": "2025-Budget-Statement-and-Economic-Policy_v4.pdf",
+    "characters_extracted": 689315,
+    "words_extracted": 98721
+  },
+  "chunking_comparison": {
+    "small_chunks": {
+      "description": "Small chunks (500 chars) with minimal overlap - good for precise retrieval",
+      "num_chunks": 2147,
+      "avg_chunk_size": 408.03027480204935,
+      "std_chunk_size": 144.63443636508063
+    },
+    "medium_chunks": {
+      "description": "Medium chunks (1000 chars) with standard overlap - balanced approach",
+      "num_chunks": 1381,
+      "avg_chunk_size": 634.4829833454019,
+      "std_chunk_size": 407.39699555120455
+    },
+    "large_chunks": {
+      "description": "Large chunks (2000 chars) with more overlap - better context preservation",
+      "num_chunks": 998,
+      "avg_chunk_size": 877.9929859719439,
+      "std_chunk_size": 884.6984671097347
+    },
+    "high_overlap": {
+      "description": "High overlap strategy (1000 chars, 300 overlap) - smoother transitions",
+      "num_chunks": 1600,
+      "avg_chunk_size": 684.27375,
+      "std_chunk_size": 398.76470513441575
+    }
+  },
+  "recommended_strategy": {
+    "name": "large_chunks",
+    "chunk_size": 2000,
+    "overlap": 200,
+    "total_chunks": 998
+  }
+}
