@@ -19,10 +19,11 @@ class VectorStore:
     """
     
     def __init__(self, collection_name: str = "acity_rag"):
-        # New Chroma API - persistent client
-        self.client = chromadb.PersistentClient(path="./chroma_db")
+        # Use in-memory client for Streamlit Cloud compatibility
+        # (Data is re-indexed on each app start from processed_chunks.json)
+        self.client = chromadb.Client()
         
-        # Reset collection
+        # Reset collection if exists
         try:
             self.client.delete_collection(collection_name)
         except:
@@ -30,7 +31,7 @@ class VectorStore:
         
         self.collection = self.client.create_collection(name=collection_name)
         self.chunks = {}  # Local cache
-        print(f"[VECTOR STORE] Collection '{collection_name}' ready")
+        print(f"[VECTOR STORE] Collection '{collection_name}' ready (in-memory)")
     
     def add_chunks(self, chunks: List[Dict], embeddings: np.ndarray):
         """Store chunks with embeddings"""
