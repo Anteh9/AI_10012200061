@@ -383,7 +383,7 @@ def main():
             
             # Response box with better styling
             st.markdown(f"""
-            <div style="background-color: #e8f5e9; padding: 25px; border-radius: 12px; border-left: 5px solid #2E7D32; font-size: 16px; line-height: 1.6;">
+            <div style="background-color: #e8f5e9; color: black; padding: 25px; border-radius: 12px; border-left: 5px solid #2E7D32; font-size: 16px; line-height: 1.6;">
                 {response.replace(chr(10), '<br>')}
             </div>
             """, unsafe_allow_html=True)
