@@ -70,9 +70,15 @@ class VectorStore:
     
     def search(self, query_embedding: np.ndarray, k: int = 10) -> List[Dict]:
         """Top-k similarity search with scores"""
+        # Check if collection has any data
+        collection_count = self.collection.count()
+        if collection_count == 0:
+            print("[WARNING] Collection is empty - no chunks indexed")
+            return []
+        
         results = self.collection.query(
             query_embeddings=[query_embedding.tolist()],
-            n_results=k
+            n_results=min(k, collection_count)  # Don't request more than available
         )
         
         # Format results
