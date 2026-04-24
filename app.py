@@ -218,17 +218,18 @@ def simulate_response(query: str, chunks: list, style: str) -> str:
             if road_match:
                 allocations.append(('Road Fund', road_match.group(1)))
         
-        # Look for education allocation - also check textbook (main education budget item)
+        # Look for education allocation - search for textbook/curricula specifically
         if 'education' in query_lower or 'school' in query_lower:
-            # First try to find education-specific allocation
-            edu_match = re.search(r'education.*?GH\s*([\d,\.]+)', combined_text, re.IGNORECASE)
-            if edu_match:
-                allocations.append(('Education', edu_match.group(1)))
-            # Also look for textbook allocation as it's education-related
-            if not allocations or 'textbook' in combined_text.lower():
-                textbook_match = re.search(r'GH\s*([\d,\.]+).*?(?:text-?book|text book|curricula)', combined_text, re.IGNORECASE)
-                if textbook_match:
-                    allocations.append(('Textbooks & Curricula', textbook_match.group(1)))
+            # Search for curricula/textbook allocation pattern (the main education budget item)
+            # Pattern: "GH 564.6 million for comprehensive provision of curricula"
+            textbook_match = re.search(r'GH\s+([\d,\.]+)\s+million.*?curricula', combined_text, re.IGNORECASE)
+            if textbook_match:
+                allocations.append(('Textbooks & Curricula', textbook_match.group(1)))
+            else:
+                # Fallback: look for any education-related figure
+                edu_match = re.search(r'GH\s+([\d,\.]+)\s+million.*?education', combined_text, re.IGNORECASE)
+                if edu_match:
+                    allocations.append(('Education', edu_match.group(1)))
         
         if allocations:
             if style == "basic":
