@@ -194,35 +194,41 @@ def simulate_response(query: str, chunks: list, style: str) -> str:
     # === BUDGET QUERY HANDLING ===
     if is_budget_query:
         
-        # Extract monetary figures
+        # Extract monetary figures - handle GH₵, GH$, or GH (with space)
         money_pattern = r'GH[₵$]?\s*([\d,\.]+)\s*(?:million|billion)?'
         figures = re.findall(money_pattern, combined_text)
         
         allocations = []
         
-        # Look for textbook allocation
+        # Look for textbook allocation (GH 564.6 format with space)
         if 'textbook' in query_lower or 'text book' in combined_text.lower():
-            textbook_match = re.search(r'(?:text-?book|text book).*?GH[₵$]?\s*([\d,\.]+)', combined_text, re.IGNORECASE)
+            textbook_match = re.search(r'(?:text-?book|text book).*?GH\s*([\d,\.]+)', combined_text, re.IGNORECASE)
             if textbook_match:
                 allocations.append(('Textbooks', textbook_match.group(1)))
         
         # Look for LEAP
         if 'leap' in query_lower:
-            leap_match = re.search(r'LEAP.*?GH[₵$]?\s*([\d,\.]+)', combined_text, re.IGNORECASE)
+            leap_match = re.search(r'LEAP.*?GH\s*([\d,\.]+)', combined_text, re.IGNORECASE)
             if leap_match:
                 allocations.append(('LEAP', leap_match.group(1)))
         
         # Look for Road Fund
         if 'road' in query_lower or 'infrastructure' in query_lower:
-            road_match = re.search(r'road fund.*?GH[₵$]?\s*([\d,\.]+)', combined_text, re.IGNORECASE)
+            road_match = re.search(r'road fund.*?GH\s*([\d,\.]+)', combined_text, re.IGNORECASE)
             if road_match:
                 allocations.append(('Road Fund', road_match.group(1)))
         
-        # Look for education allocation
+        # Look for education allocation - also check textbook (main education budget item)
         if 'education' in query_lower or 'school' in query_lower:
-            edu_match = re.search(r'education.*?GH[₵$]?\s*([\d,\.]+)', combined_text, re.IGNORECASE)
+            # First try to find education-specific allocation
+            edu_match = re.search(r'education.*?GH\s*([\d,\.]+)', combined_text, re.IGNORECASE)
             if edu_match:
                 allocations.append(('Education', edu_match.group(1)))
+            # Also look for textbook allocation as it's education-related
+            if not allocations or 'textbook' in combined_text.lower():
+                textbook_match = re.search(r'GH\s*([\d,\.]+).*?(?:text-?book|text book|curricula)', combined_text, re.IGNORECASE)
+                if textbook_match:
+                    allocations.append(('Textbooks & Curricula', textbook_match.group(1)))
         
         if allocations:
             if style == "basic":
